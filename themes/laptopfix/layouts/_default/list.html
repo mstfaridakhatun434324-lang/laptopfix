@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ "/" | relURL }}">Home</a> / <span>{{ .Title }}</span></nav>
+  <div class="section-head" style="margin-top:6px"><h2>{{ .Title }}</h2></div>
+  <div class="cards">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "article-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

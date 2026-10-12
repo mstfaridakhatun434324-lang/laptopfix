@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ "/" | relURL }}">Home</a> / <span>Categories</span></nav>
+  <div class="section-head" style="margin-top:6px"><h2>All categories</h2></div>
+  <div class="cat-grid">
+    {{ range .Pages.ByTitle }}
+      <a class="cat-card" href="{{ .RelPermalink }}">
+        <h3>{{ .Title }}</h3>
+        <p>{{ len .Pages }} guides</p>
+        <span class="count">Browse →</span>
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

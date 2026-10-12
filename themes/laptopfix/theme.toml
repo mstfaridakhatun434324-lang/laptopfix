@@ -1,0 +1,11 @@
+name = "laptopfix"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Custom question-style blog theme for a Windows laptop troubleshooting site."
+homepage = "https://example.com/"
+tags = ["blog", "troubleshooting"]
+features = ["cards", "toc", "faq-schema", "related-posts"]
+min_version = "0.120.0"
+
+[author]
+  name = "awswnv.win"

@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap">
+    <h1>What laptop problem are <em>you</em> fixing today?</h1>
+    <p>Step-by-step solutions for Windows battery, blue screen, driver, performance, and update issues.</p>
+    <div class="searchbox">
+      <input id="site-search" type="search" placeholder="Search fixes… e.g. battery not charging" autocomplete="off" aria-label="Search articles">
+      <div class="search-results" id="search-results" role="listbox"></div>
+    </div>
+    <div class="chips">
+      {{ range first 6 (where .Site.RegularPages "Section" "articles") }}
+        <a href="{{ .RelPermalink }}">{{ .Title | truncate 42 }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Browse by category</h2></div>
+    <div class="cat-grid">
+      {{ range .Site.Params.categories.list }}
+        {{ $term := site.GetPage (printf "categories/%s" .slug) }}
+        <a class="cat-card" href="{{ with $term }}{{ .RelPermalink }}{{ else }}#{{ end }}">
+          <span class="icon">{{ partial (printf "icons/%s.html" .icon) }}</span>
+          <h3>{{ .name }}</h3>
+          <p>{{ .blurb }}</p>
+          <span class="count">{{ with $term }}{{ len $term.Pages }} guides{{ else }}0 guides{{ end }} →</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Latest fixes</h2>
+      <a href="{{ "/articles/" | relURL }}">All articles →</a>
+    </div>
+    <div class="cards">
+      {{ range first 9 (where .Site.RegularPages "Section" "articles").ByDate.Reverse }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $js := resources.Get "js/search.js" | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

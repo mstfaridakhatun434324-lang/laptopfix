@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ "/" | relURL }}">Home</a> / <span>{{ .Title }}</span></nav>
+  <div class="section-head" style="margin-top:6px">
+    <h2>{{ .Title }} fixes</h2>
+  </div>
+  <p style="color:#5b6b82;max-width:720px;margin:-8px 0 24px">
+    Step-by-step solutions for {{ .Title | lower }} problems on Windows laptops — battery, errors, drivers, speed, and updates.
+  </p>
+  <div class="cards">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "article-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

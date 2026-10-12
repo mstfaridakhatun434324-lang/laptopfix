@@ -1,0 +1,35 @@
+// ============================================================================
+// BRAND PALETTE — change these values to re-skin the entire site.
+// Thumbnails (scripts/gen_thumbnails.py) read the same hex values from
+// THEME_COLORS so site + images stay in sync.
+// ============================================================================
+
+$navy-950: #0a1428;   // page footer, hero gradient base
+$navy-900: #0f1e38;   // hero gradient top, headings
+$navy-800: #1a2f55;   // hero gradient bottom, badges
+$navy-700: #24406f;   // borders on dark
+
+$amber-500: #f5a623;  // primary accent: buttons, links-hover, pills
+$amber-400: #ffbe45;  // accent highlight
+$amber-100: #fdf0d7;  // soft accent backgrounds
+
+$cyan-400: #22d3ee;   // secondary accent: icons, highlights on dark
+$cyan-900: #0e7490;
+
+$ink: #16213a;        // body text
+$muted: #5b6b82;      // secondary text
+$faint: #8a97ab;      // timestamps, meta
+$bg: #f4f6fa;         // page background
+$card: #ffffff;       // cards, article body
+$line: #e3e9f2;       // hairline borders
+
+$radius: 14px;
+$radius-sm: 9px;
+$shadow: 0 6px 24px rgba(15, 30, 56, 0.08);
+$shadow-lg: 0 14px 40px rgba(15, 30, 56, 0.14);
+
+$font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+$font-display: "Inter", "Segoe UI", system-ui, sans-serif;
+
+$maxw: 1140px;
+$maxw-article: 780px;

@@ -1,0 +1,97 @@
+{{ define "main" }}
+{{ $catPage := "" }}{{ with .Params.categories }}{{ $catPage = site.GetPage (printf "categories/%s" (index . 0)) }}{{ end }}
+<div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ "/" | relURL }}">Home</a> /
+    {{ with $catPage }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> /{{ end }}
+    <span>{{ .Title | truncate 60 }}</span>
+  </nav>
+
+  <header class="article-head">
+    {{ with $catPage }}<span class="badge">{{ .Title }}</span>{{ end }}
+    <h1>{{ .Title }}</h1>
+    <p class="meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span><span class="dot"></span>
+      <span>{{ .ReadingTime }} min read</span>
+    </p>
+  </header>
+
+  {{ with .Params.thumbnail }}
+  <figure class="article-hero">
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" width="1200" height="630" fetchpriority="high">
+  </figure>
+  {{ end }}
+
+  <div class="article-body">
+    {{ with .TableOfContents }}
+    <aside class="toc" aria-label="Table of contents">
+      <strong>On this page</strong>
+      {{ . }}
+    </aside>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ with .Params.faqs }}
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="faq">
+      {{ range . }}
+      <details>
+        <summary>{{ .q }}</summary>
+        <div>{{ .a | markdownify }}</div>
+      </details>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  {{ $slug := .File.ContentBaseName }}
+  {{ with index hugo.Data.related $slug }}
+  <section class="related">
+    <h2>Related fixes</h2>
+    <div class="cards">
+      {{ range . }}
+        {{ with site.GetPage (printf "articles/%s" .) }}
+          {{ partial "article-card.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <nav class="prevnext" aria-label="More articles">
+    {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}"><span class="pn-label">← Newer</span><span class="pn-title">{{ .Title | truncate 60 }}</span></a>
+    {{ else }}<span></span>{{ end }}
+    {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}"><span class="pn-label">Older →</span><span class="pn-title">{{ .Title | truncate 60 }}</span></a>
+    {{ else }}<span></span>{{ end }}
+  </nav>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "image": {{ with .Params.thumbnail }}{{ (printf "%s%s" $.Site.BaseURL .) | jsonify }}{{ else }}" "{{ end }},
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  "author": { "@type": "Organization", "name": {{ .Site.Title | jsonify }} }
+}
+</script>
+{{ with .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $f := . }}{{ if $i }},{{ end }}
+    { "@type": "Question", "name": {{ $f.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $f.a | plainify | jsonify }} } }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}

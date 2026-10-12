@@ -1,0 +1,40 @@
+{
+  "critical-process-died-windows-11-fix": [
+    "kmode-exception-not-handled-windows-11-fix"
+  ],
+  "fix-100-percent-disk-usage-windows-11": [
+    "windows-11-high-ram-usage-fix",
+    "windows-update-stuck-at-100-percent-fix"
+  ],
+  "fix-windows-update-error-0x800f081f": [
+    "windows-update-stuck-at-100-percent-fix",
+    "wifi-not-working-after-windows-11-update-fix"
+  ],
+  "how-to-fix-laptop-plugged-in-not-charging-windows-11": [
+    "laptop-battery-stuck-at-80-percent-windows-11-fix"
+  ],
+  "kmode-exception-not-handled-windows-11-fix": [
+    "critical-process-died-windows-11-fix"
+  ],
+  "laptop-battery-stuck-at-80-percent-windows-11-fix": [
+    "how-to-fix-laptop-plugged-in-not-charging-windows-11",
+    "windows-update-stuck-at-100-percent-fix"
+  ],
+  "touchpad-not-working-hp-laptop-windows-11-fix": [
+    "wifi-not-working-after-windows-11-update-fix"
+  ],
+  "wifi-not-working-after-windows-11-update-fix": [
+    "touchpad-not-working-hp-laptop-windows-11-fix",
+    "windows-update-stuck-at-100-percent-fix",
+    "fix-windows-update-error-0x800f081f"
+  ],
+  "windows-11-high-ram-usage-fix": [
+    "fix-100-percent-disk-usage-windows-11"
+  ],
+  "windows-update-stuck-at-100-percent-fix": [
+    "fix-windows-update-error-0x800f081f",
+    "wifi-not-working-after-windows-11-update-fix",
+    "fix-100-percent-disk-usage-windows-11",
+    "laptop-battery-stuck-at-80-percent-windows-11-fix"
+  ]
+}

@@ -1,0 +1,59 @@
+baseURL = "https://awswnv.win/"
+title = "awswnv.win"
+theme = "laptopfix"
+enableRobotsTXT = false
+
+[languages]
+  [languages.en]
+    locale = "en-us"
+    weight = 1
+
+[taxonomies]
+  category = "categories"
+
+[permalinks]
+  articles = "/articles/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+[params]
+  tagline = "Practical fixes for Windows laptop problems"
+  description = "Step-by-step solutions for Windows laptop battery issues, blue screens, driver problems, slow performance, and update errors."
+  # Brand palette lives in themes/laptopfix/assets/scss/_variables.scss — change colors there.
+
+[params.categories]
+  # slug = display metadata used on homepage cards (order matters)
+  [[params.categories.list]]
+    name = "Battery & Power"
+    slug = "battery"
+    blurb = "Charging problems, battery health, calibration, and power settings."
+    icon = "battery"
+  [[params.categories.list]]
+    name = "Windows Errors & BSOD"
+    slug = "windows-errors"
+    blurb = "Blue screens, stop codes, boot loops, and Windows error fixes."
+    icon = "alert"
+  [[params.categories.list]]
+    name = "Drivers & Devices"
+    slug = "drivers"
+    blurb = "Wi-Fi, Bluetooth, touchpad, audio, and driver troubleshooting."
+    icon = "chip"
+  [[params.categories.list]]
+    name = "Performance & Speed"
+    slug = "performance"
+    blurb = "Slow laptop fixes: disk, RAM, CPU usage, and startup speed."
+    icon = "gauge"
+  [[params.categories.list]]
+    name = "Windows Update"
+    slug = "windows-update"
+    blurb = "Stuck updates, error codes, and update rollback guides."
+    icon = "refresh"

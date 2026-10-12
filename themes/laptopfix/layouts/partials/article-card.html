@@ -1,0 +1,20 @@
+{{ $catPage := "" }}
+{{ with .Params.categories }}{{ $catPage = site.GetPage (printf "categories/%s" (index . 0)) }}{{ end }}
+<article>
+  <a class="acard" href="{{ .RelPermalink }}">
+    <span class="thumb">
+      {{ with .Params.thumbnail }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" width="640" height="360">
+      {{ end }}
+    </span>
+    <span class="body">
+      {{ with $catPage }}<span class="badge">{{ .Title }}</span>{{ end }}
+      <h3>{{ .Title }}</h3>
+      <p class="ex">{{ .Description | default (.Summary | plainify | truncate 140) }}</p>
+      <span class="meta">
+        <span>{{ .Date.Format "Jan 2, 2006" }}</span><span class="dot"></span>
+        <span>{{ .ReadingTime }} min read</span>
+      </span>
+    </span>
+  </a>
+</article>

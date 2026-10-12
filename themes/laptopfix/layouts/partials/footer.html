@@ -1,0 +1,35 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>awswnv.win</h4>
+        <p>Practical, step-by-step fixes for Windows laptop problems — battery, blue screens, drivers, performance, and updates. Tested solutions, plain language.</p>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul>
+          {{ range .Site.Taxonomies.categories.ByCount }}
+            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="{{ "/" | relURL }}">Home</a></li>
+          <li><a href="{{ "/articles/" | relURL }}">All articles</a></li>
+          <li><a href="{{ "/about/" | relURL }}">About us</a></li>
+          <li><a href="{{ "/contact/" | relURL }}">Contact</a></li>
+          <li><a href="{{ "/privacy-policy/" | relURL }}">Privacy Policy</a></li>
+          <li><a href="{{ "/terms-of-service/" | relURL }}">Terms of Service</a></li>
+          <li><a href="{{ "/disclaimer/" | relURL }}">Disclaimer</a></li>
+          <li><a href="{{ "/index.xml" | relURL }}">RSS feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© {{ now.Year }} awswnv.win. All rights reserved.</span>
+      <span>Fixes are for informational purposes; back up important data first.</span>
+    </div>
+  </div>
+</footer>
