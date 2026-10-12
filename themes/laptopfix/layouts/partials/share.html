@@ -1,0 +1,13 @@
+{{ $fb := printf "https://www.facebook.com/sharer/sharer.php?u=%s" (.Permalink | urlquery) | safeURL }}
+{{ $wa := printf "https://wa.me/?text=%s%%20%s" (.Title | urlquery) (.Permalink | urlquery) | safeURL }}
+{{ $em := printf "mailto:?subject=%s&body=%s" (.Title | urlquery) (.Permalink | urlquery) | safeURL }}
+<div class="share">
+  <span class="share-label">Share this fix</span>
+  <div class="share-btns">
+    <a class="share-btn fb" href="{{ $fb }}" target="_blank" rel="noopener" aria-label="Share on Facebook">{{ partial "icons/facebook.html" . }}</a>
+    <a class="share-btn wa" href="{{ $wa }}" target="_blank" rel="noopener" aria-label="Share on WhatsApp">{{ partial "icons/whatsapp.html" . }}</a>
+    <a class="share-btn em" href="{{ $em }}" aria-label="Share via email">{{ partial "icons/mail.html" . }}</a>
+    <button class="share-btn cp" id="copy-link" type="button" aria-label="Copy link" data-url="{{ .Permalink }}">{{ partial "icons/link.html" . }}</button>
+  </div>
+  <span class="share-done" id="share-done" hidden>Link copied!</span>
+</div>

@@ -184,3 +184,23 @@ img { max-width: 100%; height: auto; }
 }
 .btn-loadmore:hover { background: $amber-400; transform: translateY(-1px); }
 .btn-loadmore:disabled { opacity: .65; cursor: default; transform: none; }
+
+/* ---------- share buttons ---------- */
+.share {
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  border-top: 1px solid #e3e9f4; margin-top: 44px; padding-top: 26px;
+}
+.share-label { font-weight: 800; color: $navy-800; font-size: 1.02rem; }
+.share-btns { display: flex; gap: 10px; }
+.share-btn {
+  width: 44px; height: 44px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: #fff; transition: transform .15s ease, opacity .15s ease;
+}
+.share-btn:hover { transform: translateY(-2px); opacity: .92; }
+.share-btn svg { width: 20px; height: 20px; }
+.share-btn.fb { background: #1877f2; }
+.share-btn.wa { background: #25d366; }
+.share-btn.em { background: #5b6b82; }
+.share-btn.cp { background: $amber-500; color: $navy-950; border: 0; cursor: pointer; }
+.share-done { color: #1a7f37; font-weight: 700; font-size: .9rem; }

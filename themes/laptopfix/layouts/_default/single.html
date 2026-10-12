@@ -46,6 +46,7 @@
   </div>
 
   {{ $slug := .File.ContentBaseName }}
+  {{ partial "share.html" . }}
   {{ with index hugo.Data.related $slug }}
   <section class="related">
     <h2>Related fixes</h2>
@@ -94,4 +95,9 @@
 }
 </script>
 {{ end }}
+{{ end }}
+
+{{ define "scripts" }}
+{{ $sh := resources.Get "js/share.js" | fingerprint }}
+<script src="{{ $sh.RelPermalink }}" integrity="{{ $sh.Data.Integrity }}" defer></script>
 {{ end }}
