@@ -68,7 +68,7 @@ This is the most reliable software fix for charging problems, and it takes about
 An outdated BIOS can miscommunicate with the embedded controller that manages charging, freezing the reported battery state.
 
 1. Press Win + R, type `msinfo32`, press Enter, and note the BIOS Version/Date under System Summary.
-2. Visit your manufacturer's support site and search for your exact model to see whether a newer BIOS is available.
+2. Visit your manufacturer's support site — [Dell](https://www.dell.com/support), [HP](https://support.hp.com/us-en), or [Lenovo](https://support.lenovo.com/us/en/) — and search for your exact model to see whether a newer BIOS is available.
 3. Download the BIOS update. Keep the charger plugged in, close all applications, and run the installer.
 4. Allow the laptop to restart and finish the flash process — do not power it off or close the lid while it runs.
 5. Once Windows boots again, check whether the battery charges normally.

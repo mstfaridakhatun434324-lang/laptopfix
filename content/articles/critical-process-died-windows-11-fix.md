@@ -66,7 +66,7 @@ Bad drivers are the most common cause of this error after a system update. Focus
 1. Right-click **Start** and open **Device Manager**.
 2. Expand **Display adapters**, **IDE ATA/ATAPI controllers**, and **Storage controllers**; right-click each device and choose **Update driver > Search automatically for drivers**.
 3. If crashes started right after a driver update, instead open **Properties > Driver > Roll Back Driver** on that device.
-4. Also check your laptop manufacturer's support site for chipset and storage drivers for your exact model — they're often newer than what Windows Update offers.
+4. Also check your laptop manufacturer's support site — [Dell](https://www.dell.com/support), [HP](https://support.hp.com/us-en), or [Lenovo](https://support.lenovo.com/us/en/) — for chipset and storage drivers for your exact model; they're often newer than what Windows Update offers.
 5. A similar driver-focused approach applies to other blue screens like [KMODE_EXCEPTION_NOT_HANDLED](/articles/kmode-exception-not-handled-windows-11-fix/), where the faulty driver usually names itself in the minidump.
 
 ### Fix 5: Run CHKDSK on the system drive

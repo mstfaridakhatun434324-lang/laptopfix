@@ -81,7 +81,7 @@ Outdated storage controller drivers — especially Microsoft's generic `storAHCI
 1. Press **Win + X** and open **Device Manager**.
 2. Expand **Storage controllers** and **IDE ATA/ATAPI controllers**.
 3. Right-click each controller, choose **Update driver > Search automatically for drivers**.
-4. Better: install the chipset driver package from your laptop/motherboard manufacturer's site (Intel RST on Intel, AMD chipset drivers on AMD) to replace the generic Microsoft driver.
+4. Better: install the chipset driver package from your laptop/motherboard manufacturer's site — [Intel's Driver & Support Assistant](https://www.intel.com/content/www/us/en/support/detect.html) on Intel systems, or [AMD's official driver page](https://www.amd.com/en/support/download/drivers.html) on AMD — to replace the generic Microsoft driver.
 5. For SSDs, check firmware with the manufacturer's tool (Samsung Magician, Crucial Storage Executive, WD Dashboard). Updated drivers/firmware also resolve the known MSI-mode conflict on certain AHCI controllers.
 
 ### Fix 6: Run SFC and DISM to repair system files

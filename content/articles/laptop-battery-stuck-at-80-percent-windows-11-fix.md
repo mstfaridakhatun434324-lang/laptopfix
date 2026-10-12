@@ -43,6 +43,8 @@ Conservation Mode limits the battery to about 60%, which is ideal for desk use b
 3. Find Conservation Mode and toggle it Off.
 4. Unplug and replug the charger — the battery should now charge past the cap toward 100%.
 
+Lenovo's [official support site](https://support.lenovo.com/us/en/) has model-specific instructions if Vantage looks different on your machine.
+
 ### Fix 2: Change HP's Battery Health Manager in the BIOS
 
 HP enforces charge limits in firmware rather than in Windows, so this one requires a trip into the BIOS.
@@ -52,6 +54,8 @@ HP enforces charge limits in firmware rather than in Windows, so this one requir
 3. Select "Let HP Manage My Charging Setting" or "Maximize My Battery Duration" — the full-charge option — instead of "Maximize My Battery Health."
 4. Save and exit, let Windows boot, and confirm the battery charges past the previous limit.
 
+HP's [official support site](https://support.hp.com/us-en) lists the exact BIOS path for your model if the menu names differ.
+
 ### Fix 3: Switch Dell Power Manager to Standard
 
 Dell's battery profiles quietly change the maximum charge based on how you use the machine.
@@ -60,6 +64,8 @@ Dell's battery profiles quietly change the maximum charge based on how you use t
 2. Go to Battery Settings.
 3. Change the selected profile from Adaptive, Primarily AC Use, or Custom to Standard.
 4. Click OK or Apply, then unplug and replug the charger if charging doesn't resume on its own.
+
+If Power Manager is missing, grab it from [Dell's official support site](https://www.dell.com/support) for your model.
 
 ### Fix 4: Set MyASUS Battery Health Charging to Full capacity mode
 

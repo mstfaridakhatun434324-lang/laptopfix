@@ -89,7 +89,7 @@ Feature updates need staging room — aim for at least 20 to 30 GB free on the s
 If automatic update keeps stalling, the standalone installer often succeeds. Use this as the last resort, once the PC is booted normally.
 
 1. Find the stuck update's KB number at **Settings > Windows Update > Update history**.
-2. Go to the Microsoft Update Catalog (`catalog.update.microsoft.com`), search the KB number, and download the version matching your system (usually **x64**).
+2. Go to the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/), search the KB number, and download the version matching your system (usually **x64**).
 3. Right-click the downloaded `.msu` file, run it as administrator, and reboot when prompted. If the install fails with a specific error code such as 0x800F081F, see our guide on [fixing Windows Update error 0x800F081F](/articles/fix-windows-update-error-0x800f081f/) for the repair steps.
 
 Most stuck updates resolve by Fix 4, so don't skip ahead — the safest fixes are first for a reason. And if your update finishes but leaves something broken afterward (wireless adapters are a frequent casualty), see how to fix [Wi-Fi not working after a Windows 11 update](/articles/wifi-not-working-after-windows-11-update-fix/).

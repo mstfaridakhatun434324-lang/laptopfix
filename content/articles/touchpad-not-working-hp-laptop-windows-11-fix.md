@@ -66,6 +66,8 @@ HP validates drivers for your exact model, so their version is more reliable tha
 2. Click **Check for updates** and let it scan.
 3. Install any touchpad, chipset, or input driver updates it lists, then restart the laptop.
 
+You can also download drivers manually from [HP's official support site](https://support.hp.com/us-en) by entering your model number.
+
 ### Fix 5: Check the touchpad in BIOS
 
 If a BIOS update or settings change disabled the touchpad at the hardware level, no Windows fix will help — you must re-enable it before Windows boots.

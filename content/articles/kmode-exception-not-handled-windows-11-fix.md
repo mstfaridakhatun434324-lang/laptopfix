@@ -50,7 +50,7 @@ If the minidump names a specific driver, update it first. Otherwise, update grap
 1. Right-click **Start** and open **Device Manager**.
 2. Find the matching device — **Display adapters** for GPU, **Network adapters** for Wi-Fi/Ethernet, **Storage controllers** for storage drivers.
 3. Right-click it and choose **Update driver > Search automatically for drivers**.
-4. For graphics drivers, get the driver directly from NVIDIA, AMD, or Intel instead — their releases are newer and better tested than Windows Update's.
+4. For graphics drivers, get the driver directly from [NVIDIA](https://www.nvidia.com/Download/index.aspx), [AMD](https://www.amd.com/en/support/download/drivers.html), or [Intel](https://www.intel.com/content/www/us/en/support/detect.html) instead — their releases are newer and better tested than Windows Update's.
 5. Restart and use the PC normally before changing anything else, so you know which change worked.
 
 ### Fix 3: Roll back the recently updated driver

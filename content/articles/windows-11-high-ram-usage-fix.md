@@ -95,7 +95,7 @@ Faulty RAM can cause strange behavior that looks like high usage — crashes, st
 3. The PC reboots into the diagnostic and runs the standard test automatically (10–20 minutes).
 4. After rebooting, check results in **Event Viewer > Windows Logs > System**, filtered for **MemoryDiagnostics-Results**.
 
-If errors are found, the RAM stick itself is failing and needs replacement — no software fix will help.
+If errors are found, the RAM stick itself is failing and needs replacement — no software fix will help. Microsoft's [Windows support hub](https://support.microsoft.com/en-us/windows) documents memory diagnostics and hardware troubleshooting in detail.
 
 ### Fix 7: Disable visual effects
 

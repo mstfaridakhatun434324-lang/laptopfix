@@ -59,6 +59,8 @@ If rollback is not available or did not help, uninstalling the adapter forces Wi
 2. Leave "Attempt to remove the driver for this device" **unchecked** — you want Windows to keep a copy.
 3. Click **Uninstall**, then restart the laptop. Windows reinstalls the adapter automatically during boot.
 
+If Windows can't find a working driver on its own, download the latest Wi-Fi driver for your adapter from [Intel's Driver & Support Assistant](https://www.intel.com/content/www/us/en/support/detect.html) — most laptop Wi-Fi chips are Intel — using another device, then install it via USB.
+
 ### Fix 4: Run the Network troubleshooter
 
 The built-in troubleshooter can reset adapter configurations and repair common DNS, DHCP, and gateway problems through one guided flow.

@@ -80,7 +80,7 @@ If the payload download itself is corrupted, clearing the update cache forces a 
 
 If nothing above clears the error, the component store is too damaged for targeted repair. An in-place upgrade reinstalls Windows over itself while keeping your files and apps.
 
-1. With the Windows 11 ISO mounted, open it in File Explorer and run `setup.exe`.
+1. Download the Windows 11 ISO from [Microsoft's official software download page](https://www.microsoft.com/en-us/software-download/windows11), mount it, open it in File Explorer, and run `setup.exe`.
 2. Accept the license terms, and on the "Choose what to keep" screen select **Keep personal files and apps**.
 3. Let setup complete — it takes 30 to 90 minutes, and the PC will restart several times. Do not interrupt it.
 4. After signing in, go to **Settings > Windows Update** and install the update that was failing.
