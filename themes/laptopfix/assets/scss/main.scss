@@ -173,3 +173,14 @@ img { max-width: 100%; height: auto; }
   .site-footer .cols { grid-template-columns: 1fr; }
   .prevnext { flex-direction: column; }
 }
+
+/* ---------- load more ---------- */
+.loadmore-wrap { text-align: center; margin: 38px 0 10px; }
+.btn-loadmore {
+  background: $amber-500; color: $navy-950;
+  border: 0; border-radius: 999px;
+  padding: 14px 44px; font-size: 1rem; font-weight: 800;
+  cursor: pointer; transition: transform .15s ease, background .15s ease;
+}
+.btn-loadmore:hover { background: $amber-400; transform: translateY(-1px); }
+.btn-loadmore:disabled { opacity: .65; cursor: default; transform: none; }

@@ -7,10 +7,16 @@
   <p style="color:#5b6b82;max-width:720px;margin:-8px 0 24px">
     Step-by-step solutions for {{ .Title | lower }} problems on Windows laptops — battery, errors, drivers, speed, and updates.
   </p>
-  <div class="cards">
-    {{ range .Pages.ByDate.Reverse }}
+  <div class="cards" id="article-grid" data-rendered="9" data-total="{{ len .Pages }}" data-category="{{ path.Base .RelPermalink }}">
+    {{ range first 9 .Pages.ByDate.Reverse }}
       {{ partial "article-card.html" . }}
     {{ end }}
   </div>
+  <div class="loadmore-wrap"><button id="load-more" class="btn-loadmore" type="button">Load more fixes</button></div>
 </div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $lm := resources.Get "js/loadmore.js" | fingerprint }}
+<script src="{{ $lm.RelPermalink }}" integrity="{{ $lm.Data.Integrity }}" defer></script>
 {{ end }}

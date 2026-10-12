@@ -1,6 +1,10 @@
-[{{ range $i, $p := where .Site.RegularPages "Section" "articles" }}{{ if $i }},{{ end }}{
+[{{ range $i, $p := (where .Site.RegularPages "Section" "articles").ByDate.Reverse }}{{ if $i }},{{ end }}{
   "title": {{ $p.Title | jsonify }},
   "url": {{ $p.RelPermalink | jsonify }},
   "category": {{ with $p.Params.categories }}{{ index . 0 | jsonify }}{{ else }}""{{ end }},
-  "excerpt": {{ $p.Description | default ($p.Summary | plainify | truncate 140) | jsonify }}
+  "catName": {{ with $p.Params.categories }}{{ with site.GetPage (printf "categories/%s" (index . 0)) }}{{ .Title | jsonify }}{{ else }}""{{ end }}{{ else }}""{{ end }},
+  "excerpt": {{ $p.Description | default ($p.Summary | plainify | truncate 140) | jsonify }},
+  "thumb": {{ $p.Params.thumbnail | default "" | jsonify }},
+  "date": {{ $p.Date.Format "Jan 2, 2006" | jsonify }},
+  "read": {{ $p.ReadingTime }}
 }{{ end }}]

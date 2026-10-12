@@ -2,10 +2,16 @@
 <div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ "/" | relURL }}">Home</a> / <span>{{ .Title }}</span></nav>
   <div class="section-head" style="margin-top:6px"><h2>{{ .Title }}</h2></div>
-  <div class="cards">
-    {{ range .Pages.ByDate.Reverse }}
+  <div class="cards" id="article-grid" data-rendered="9" data-total="{{ len .Pages }}">
+    {{ range first 9 .Pages.ByDate.Reverse }}
       {{ partial "article-card.html" . }}
     {{ end }}
   </div>
+  <div class="loadmore-wrap"><button id="load-more" class="btn-loadmore" type="button">Load more fixes</button></div>
 </div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $lm := resources.Get "js/loadmore.js" | fingerprint }}
+<script src="{{ $lm.RelPermalink }}" integrity="{{ $lm.Data.Integrity }}" defer></script>
 {{ end }}

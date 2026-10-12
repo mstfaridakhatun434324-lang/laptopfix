@@ -38,11 +38,12 @@
       <h2>Latest fixes</h2>
       <a href="{{ "/articles/" | relURL }}">All articles →</a>
     </div>
-    <div class="cards">
+    <div class="cards" id="article-grid" data-rendered="9" data-total="{{ len (where .Site.RegularPages "Section" "articles") }}">
       {{ range first 9 (where .Site.RegularPages "Section" "articles").ByDate.Reverse }}
         {{ partial "article-card.html" . }}
       {{ end }}
     </div>
+    <div class="loadmore-wrap"><button id="load-more" class="btn-loadmore" type="button">Load more fixes</button></div>
   </div>
 </section>
 {{ end }}
@@ -50,4 +51,6 @@
 {{ define "scripts" }}
 {{ $js := resources.Get "js/search.js" | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ $lm := resources.Get "js/loadmore.js" | fingerprint }}
+<script src="{{ $lm.RelPermalink }}" integrity="{{ $lm.Data.Integrity }}" defer></script>
 {{ end }}
