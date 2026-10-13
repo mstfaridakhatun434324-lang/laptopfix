@@ -36,10 +36,12 @@ They are already applied to the 10 sample articles in `content/articles/`.
 | AMD       | https://www.amd.com/en/support/download/drivers.html | AMD chipset/GPU drivers    |
 
 ## Images
-- One 1200×630 `.webp` thumbnail per post: real licensed photo + navy gradient
-  + amber category pill + title + `awswnv.win` branding (`scripts/gen_thumbnails.py`).
-- Photo pool lives in `assets/thumb-bg/` (Pexels license: free commercial use,
-  no attribution required). Each post MUST use a unique photo.
+- All photos are AI-generated photorealistic originals (no downloaded/stock photos).
+  One unique image per post, generated with media.generate_image and saved to
+  `/home/hatch/workspace/ai-photos-5k/<slug>.jpg` (NOT committed to git).
+- One 1200×630 `.webp` thumbnail per post: AI photo + navy gradient + amber
+  category pill + title + `awswnv.win` branding (`scripts/gen_thumbnails.py`
+  reads 1:1 from ai-photos-5k, never reuses a photo).
 
 ## SEO / schema
 - Article + FAQPage JSON-LD on every article (in `layouts/_default/single.html`).

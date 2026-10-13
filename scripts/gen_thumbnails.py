@@ -4,15 +4,14 @@
 Reads content/articles/*.md frontmatter (title, category, slug) and renders
 1200x630 .webp images into static/images/thumbs/<slug>.webp.
 
-Background = a real, freely-licensed photo from assets/thumb-bg/<category>/
-(chosen deterministically per slug so each article gets a stable, unique
-photo), darkened with a navy gradient for text legibility. Same template
-for every thumbnail: amber category pill + wrapped title + LAPTOPFIX footer.
+Background = one AI-generated photorealistic original per article, read 1:1
+from /home/hatch/workspace/ai-photos-5k/<slug>.jpg (never reused across
+posts), darkened with a navy gradient for text legibility. Same template
+for every thumbnail: amber category pill + wrapped title + awswnv.win footer.
 
 Palette mirrors themes/laptopfix/assets/scss/_variables.scss — keep in sync.
 Run:  python3 scripts/gen_thumbnails.py [--force]
 """
-import hashlib
 import os
 import re
 import sys
@@ -22,7 +21,8 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content", "articles")
 OUTDIR = os.path.join(ROOT, "static", "images", "thumbs")
-BGDIR = os.path.join(ROOT, "assets", "thumb-bg")  # real photos, one subdir per category
+# AI-generated photorealistic originals, one per article slug (NOT in git).
+AIDIR = "/home/hatch/workspace/ai-photos-5k"
 
 # Keep in sync with _variables.scss
 NAVY_TOP = (15, 30, 56)
@@ -65,19 +65,14 @@ def parse_frontmatter(path):
     return meta
 
 
-def photo_bg(category_slug, slug):
-    """Real-photo background: deterministic photo per article, cover-cropped
-    to 1200x630, with a navy gradient overlay (darker at bottom) so the
-    overlaid title text stays legible. Falls back to the gradient if no
-    photo exists for the category."""
-    photos = []
-    cat_dir = os.path.join(BGDIR, category_slug)
-    if os.path.isdir(cat_dir):
-        photos = sorted(f for f in os.listdir(cat_dir)
-                        if f.lower().endswith((".jpg", ".jpeg", ".png", ".webp")))
-    if photos:
-        pick = photos[int(hashlib.md5(slug.encode()).hexdigest(), 16) % len(photos)]
-        img = Image.open(os.path.join(cat_dir, pick)).convert("RGB")
+def photo_bg(slug):
+    """AI-photo background: 1:1 mapping slug -> ai-photos-5k/<slug>.jpg,
+    cover-cropped to 1200x630, with a navy gradient overlay (darker at
+    bottom) so the overlaid title text stays legible. Falls back to the
+    plain gradient if the AI photo is missing."""
+    src = os.path.join(AIDIR, slug + ".jpg")
+    if os.path.isfile(src):
+        img = Image.open(src).convert("RGB")
         # cover-crop to 1200x630
         sr, tr = img.width / img.height, W / H
         if sr > tr:
@@ -136,8 +131,8 @@ def draw_pill(draw, text, font):
     draw.text((x0 + pad_x, y0 + pad_y - 2), text, font=font, fill=NAVY_BOT)
 
 
-def render(title, category, cat_slug, slug, out_path):
-    img = photo_bg(cat_slug, slug)
+def render(title, category, slug, out_path):
+    img = photo_bg(slug)
     draw = ImageDraw.Draw(img)
     pill_font = ImageFont.truetype(FONT_BOLD, 30)
     title_font = ImageFont.truetype(FONT_BOLD, 66)
@@ -176,7 +171,7 @@ def main():
         cat_slug = meta.get("category", "guide")
         render(meta.get("title", slug),
                CATEGORY_NAMES.get(cat_slug, cat_slug.replace("-", " ").title()),
-               cat_slug, slug,
+               slug,
                out)
         made += 1
     print(f"thumbnails: {made} generated, {skipped} skipped -> {OUTDIR}")
