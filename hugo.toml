@@ -28,6 +28,8 @@ enableRobotsTXT = false
 [params]
   tagline = "Practical fixes for Windows laptop problems"
   description = "Step-by-step solutions for Windows laptop battery issues, blue screens, driver problems, slow performance, and update errors."
+  gtm_id = "GTM-MNZCBQ3Q"
+  ga_id = "G-XCC8VY61LP"
   # Brand palette lives in themes/laptopfix/assets/scss/_variables.scss — change colors there.
 
 [params.categories]
