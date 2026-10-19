@@ -39,6 +39,7 @@ CATEGORY_NAMES = {
     "drivers": "Drivers & Devices",
     "performance": "Performance & Speed",
     "windows-update": "Windows Update",
+    "ai-pc": "AI PC Troubleshooting",
 }
 
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
