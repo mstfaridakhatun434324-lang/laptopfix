@@ -23,7 +23,7 @@ faqs:
 
 Creators were promised that AI laptops would transform creative work — and in 2026, for the right workflows, that promise is finally real. Background removal that used to pin your CPU now runs silently on the NPU while you keep editing. Transcription, auto-captions, noise reduction, and generative fill increasingly happen on-device — fast, with no client footage uploaded to the cloud. But none of that happens by accident: the spec sheet decides which of these workflows fly and which crawl.
 
-Marketing throws TOPS numbers, GPU names, and display specs at you without explaining which matter for your actual work. A video editor, a photographer, and a motion designer need genuinely different machines, and the most expensive AI laptop is not the best one for every creator. Worse, memory is soldered and the NPU cannot be upgraded later, so a wrong guess at purchase follows you for years.
+Marketing throws TOPS numbers, GPU names, and display specs at you without explaining which matter for your actual work. A video editor, a photographer, and a motion designer need genuinely different machines, and the most expensive AI laptop is not the best for every creator. Worse, memory is soldered and the NPU cannot be upgraded later, so a wrong guess at purchase follows you for years.
 
 This guide gives you a creator's buying framework in six stages: mapping workflow to hardware, choosing a platform, nailing the RAM/storage/display trifecta, setting up software, enabling NPU features, and maintaining the machine. If video is your primary work, also see our picks for the [best AI laptops for video editing in 2026](/articles/best-ai-laptop-video-editing-2026/) for model-level recommendations.
 

@@ -26,8 +26,8 @@
   "acer-swift-14-ai-copilot-problems": [
     "acer-swift-go-14-ai-problems",
     "acer-swift-16-ai-npu-problems",
-    "copilot-plus-pc-overheating",
-    "copilot-plus-pc-sleep-wake-problems"
+    "copilot-app-work-account-sign-in",
+    "copilot-plus-pc-overheating"
   ],
   "acer-swift-16-ai-npu-problems": [
     "acer-swift-14-ai-copilot-problems",
@@ -38,14 +38,14 @@
   "acer-swift-go-14-ai-problems": [
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-16-ai-npu-problems",
-    "copilot-plus-pc-sleep-wake-problems",
-    "hp-omnibook-x-copilot-issues"
+    "copilot-app-work-account-sign-in",
+    "copilot-plus-pc-sleep-wake-problems"
   ],
   "adobe-photoshop-arm-laptop-issues": [
+    "audio-interface-not-working-arm-laptop",
     "davinci-resolve-arm-windows-laptop",
     "obs-studio-arm-windows-issues",
-    "120hz-refresh-rate-missing-arm-laptop",
-    "android-emulator-not-working-arm-laptop"
+    "python-arm-windows-install-issues"
   ],
   "ai-background-processes-windows-11": [
     "recall-not-available-on-my-pc",
@@ -63,7 +63,7 @@
     "live-captions-draining-battery",
     "npu-high-power-usage-draining-battery",
     "recall-draining-battery",
-    "battery-drain-in-sleep-snapdragon-laptop"
+    "studio-effects-battery-impact-reduce"
   ],
   "ai-laptop-buying-guide": [
     "ai-laptop-for-creators-guide-2026",
@@ -84,10 +84,10 @@
     "ai-laptop-for-college-students-guide"
   ],
   "ai-laptop-warranty-npu-repair": [
+    "snapdragon-x2-npu-driver-problems",
+    "windows-ml-model-fails-npu",
     "acer-swift-16-ai-npu-problems",
-    "how-to-disable-npu-device-manager",
-    "hp-omnibook-ultra-npu-driver-issues",
-    "npu-missing-after-bios-update"
+    "how-to-disable-npu-device-manager"
   ],
   "ai-pc-new-laptop-setup-checklist": [
     "copilot-plus-pc-data-migration-guide",
@@ -102,10 +102,10 @@
     "microsoft-office-slow-snapdragon-laptop"
   ],
   "ai-pc-slow-after-windows-update": [
-    "copilot-plus-pc-slow-boot-fix",
-    "npu-disappeared-after-windows-update",
-    "npu-missing-after-bios-update",
-    "recall-not-working-after-update"
+    "npu-missing-after-25h2-update",
+    "recall-broken-after-25h2-update",
+    "studio-effects-camera-black-driver-update",
+    "copilot-plus-pc-slow-boot-fix"
   ],
   "ai-pc-vs-normal-laptop-difference": [
     "anti-cheat-unsupported-arm-laptop",
@@ -126,22 +126,34 @@
     "best-way-to-fix-alt-tab-slow-windows-11"
   ],
   "amd-npu-driver-update-failed": [
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna2-npu-driver-issues",
     "intel-npu-driver-update-failed",
+    "amd-ryzen-ai-npu-not-showing-up"
+  ],
+  "amd-ryzen-ai-max-npu-issues": [
+    "amd-xdna2-npu-driver-issues",
+    "amd-npu-driver-update-failed",
     "amd-ryzen-ai-npu-not-showing-up",
-    "amd-xdna-npu-driver-not-installing",
-    "intel-npu-driver-update-stuck"
+    "amd-xdna-npu-driver-not-installing"
   ],
   "amd-ryzen-ai-npu-not-showing-up": [
     "amd-npu-driver-update-failed",
-    "amd-xdna-npu-driver-not-installing",
-    "npu-not-showing-in-dxdiag",
-    "npu-unknown-device-in-device-manager"
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna2-npu-driver-issues",
+    "amd-xdna-npu-driver-not-installing"
   ],
   "amd-xdna-npu-driver-not-installing": [
     "amd-npu-driver-update-failed",
-    "intel-npu-driver-update-stuck",
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna2-npu-driver-issues",
+    "intel-npu-driver-update-stuck"
+  ],
+  "amd-xdna2-npu-driver-issues": [
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-npu-driver-update-failed",
     "amd-ryzen-ai-npu-not-showing-up",
-    "clean-driver-store-npu-leftovers"
+    "amd-xdna-npu-driver-not-installing"
   ],
   "android-emulator-not-working-arm-laptop": [
     "prism-emulator-settings-windows-11",
@@ -182,8 +194,8 @@
   "app-not-using-npu-acceleration": [
     "directml-not-using-npu-windows-11",
     "manually-install-intel-npu-driver-inf",
-    "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-16-ai-npu-problems"
+    "npu-exclusive-mode-app-conflict",
+    "45-tops-vs-40-tops-npu-difference"
   ],
   "app-not-working-snapdragon-x-laptop": [
     "app-not-using-npu-acceleration",
@@ -196,6 +208,12 @@
     "how-to-fix-apps-opening-slowly-on-windows-11-on-asus-laptop",
     "how-to-fix-apps-opening-slowly-on-windows-11-on-dell-laptop",
     "how-to-fix-apps-opening-slowly-on-windows-11-on-hp-laptop"
+  ],
+  "arm64ec-apps-explained-fix": [
+    "adobe-photoshop-arm-laptop-issues",
+    "ai-background-processes-windows-11",
+    "ai-laptop-buying-guide",
+    "ai-laptop-for-creators-guide-2026"
   ],
   "asus-battery-health-charging-stuck-at-80-troubleshooting": [
     "best-way-to-fix-asus-battery-health-charging-stuck-at-80",
@@ -212,8 +230,8 @@
   "asus-vivobook-s-npu-not-detected": [
     "asus-vivobook-s-15-copilot-issues",
     "microsoft-surface-pro-npu-not-detected",
-    "npu-not-detected-windows-11",
-    "45-tops-vs-40-tops-npu-difference"
+    "npu-missing-after-25h2-update",
+    "npu-not-detected-windows-11"
   ],
   "asus-zenbook-a14-ai-issues": [
     "asus-vivobook-s-15-copilot-issues",
@@ -245,17 +263,23 @@
     "how-to-fix-audio-driver-keeps-crashing-after-windows-11-update",
     "how-to-fix-audio-driver-keeps-crashing-on-acer-laptop"
   ],
+  "audio-interface-not-working-arm-laptop": [
+    "adobe-photoshop-arm-laptop-issues",
+    "davinci-resolve-arm-windows-laptop",
+    "dell-optimizer-ai-audio-issues",
+    "obs-studio-arm-windows-issues"
+  ],
   "auto-super-resolution-games-not-working": [
     "super-resolution-photos-not-working",
     "games-not-running-snapdragon-laptop",
     "steam-games-arm-laptop",
-    "120hz-refresh-rate-missing-arm-laptop"
+    "studio-effects-auto-framing-zoom"
   ],
   "automatic-framing-not-working-windows-11": [
+    "studio-effects-auto-framing-zoom",
     "background-blur-not-working-studio-effects",
     "eye-contact-effect-not-working",
-    "how-to-reinstall-studio-effects-driver",
-    "how-to-turn-off-studio-effects"
+    "how-to-reinstall-studio-effects-driver"
   ],
   "automatic-repair-loop-windows-11-troubleshooting": [
     "how-to-fix-automatic-repair-loop-windows-11",
@@ -264,10 +288,10 @@
     "fix-srttrail-txt-blue-screen-error-reddit"
   ],
   "background-blur-not-working-studio-effects": [
+    "studio-effects-blur-strength-adjustment",
     "automatic-framing-not-working-windows-11",
     "eye-contact-effect-not-working",
-    "how-to-reinstall-studio-effects-driver",
-    "how-to-turn-off-studio-effects"
+    "how-to-reinstall-studio-effects-driver"
   ],
   "bad-system-config-info-blue-screen-error-fix": [
     "how-to-fix-bad-system-config-info-reddit",
@@ -2345,6 +2369,12 @@
     "best-way-to-fix-system-service-exception",
     "best-way-to-fix-system-thread-exception-not-handled"
   ],
+  "bitdefender-arm-windows-compatibility": [
+    "copilot-key-double-press-issue",
+    "fast-startup-issues-arm-laptop",
+    "120hz-refresh-rate-missing-arm-laptop",
+    "acer-swift-16-ai-npu-problems"
+  ],
   "bitlocker-issues-snapdragon-laptop": [
     "games-not-running-snapdragon-laptop",
     "app-not-working-snapdragon-x-laptop",
@@ -2421,25 +2451,31 @@
     "copilot-plus-pc-ram-upgrade-possible",
     "enable-recall-on-unsupported-pc",
     "snapdragon-x-plus-vs-x-elite",
-    "x86-app-slow-on-snapdragon"
+    "snapdragon-x2-npu-driver-problems"
   ],
   "canon-printer-driver-arm64-windows": [
-    "acer-swift-14-ai-copilot-problems",
-    "acer-swift-16-ai-npu-problems",
-    "acer-swift-go-14-ai-problems",
-    "amd-npu-driver-update-failed"
+    "amd-xdna2-npu-driver-issues",
+    "nodejs-arm64-windows-problems",
+    "snapdragon-x2-npu-driver-problems",
+    "acer-swift-14-ai-copilot-problems"
   ],
   "check-if-laptop-has-npu": [
+    "check-npu-firmware-version-windows",
     "how-to-check-npu-tops-windows-11",
     "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-16-ai-npu-problems",
-    "ai-laptop-buying-guide"
+    "acer-swift-16-ai-npu-problems"
+  ],
+  "check-npu-firmware-version-windows": [
+    "check-if-laptop-has-npu",
+    "dell-xps-14-snapdragon-npu-issues",
+    "how-to-check-npu-tops-windows-11",
+    "how-to-enable-npu-in-bios"
   ],
   "chrome-arm64-crashing-windows": [
     "canon-printer-driver-arm64-windows",
+    "cisco-anyconnect-arm64-windows",
     "click-to-do-crashes-file-explorer",
-    "copilot-app-crashing",
-    "printer-spooler-crashing-arm-laptop"
+    "copilot-app-crashing"
   ],
   "chrome-high-cpu-windows-11-troubleshooting": [
     "antimalware-service-executable-high-cpu-fix-troubleshooting",
@@ -2453,35 +2489,65 @@
     "how-to-fix-chrome-using-too-much-ram-laptop-in-windows-11-24h2",
     "how-to-fix-chrome-using-too-much-ram-laptop-on-windows-11"
   ],
+  "cisco-anyconnect-arm64-windows": [
+    "firefox-arm64-windows-issues",
+    "adobe-photoshop-arm-laptop-issues",
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna2-npu-driver-issues"
+  ],
   "clean-driver-store-npu-leftovers": [
+    "intel-npu-driver-clean-install-ddu",
     "reinstall-npu-driver-clean-install",
     "amd-npu-driver-update-failed",
-    "amd-xdna-npu-driver-not-installing",
-    "hp-omnibook-ultra-npu-driver-issues"
+    "amd-ryzen-ai-max-npu-issues"
+  ],
+  "clean-install-windows-11-ai-laptop-drivers": [
+    "reinstall-npu-driver-clean-install",
+    "intel-npu-driver-clean-install-ddu",
+    "qualcomm-hexagon-npu-driver-windows",
+    "samsung-galaxy-book5-npu-driver"
+  ],
+  "click-to-do-bulleted-list-rewrite": [
+    "click-to-do-rewrite-not-working",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer",
+    "click-to-do-disabled-group-policy"
+  ],
+  "click-to-do-copy-as-table": [
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-crashes-file-explorer",
+    "click-to-do-disabled-group-policy",
+    "click-to-do-draft-with-copilot-missing"
   ],
   "click-to-do-crashes-file-explorer": [
     "chrome-arm64-crashing-windows",
-    "click-to-do-disabled-group-policy",
-    "click-to-do-draft-with-copilot-missing",
-    "click-to-do-image-actions-missing"
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-disabled-group-policy"
   ],
   "click-to-do-disabled-group-policy": [
     "recall-group-policy-keeps-disabling",
-    "click-to-do-crashes-file-explorer",
-    "click-to-do-draft-with-copilot-missing",
-    "click-to-do-image-actions-missing"
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer"
   ],
   "click-to-do-draft-with-copilot-missing": [
     "click-to-do-image-actions-missing",
     "click-to-do-missing",
-    "click-to-do-right-click-menu-missing",
-    "click-to-do-summarize-missing"
+    "click-to-do-open-with-app-missing",
+    "click-to-do-right-click-menu-missing"
+  ],
+  "click-to-do-edge-pdf-reader": [
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer",
+    "click-to-do-disabled-group-policy"
   ],
   "click-to-do-image-actions-missing": [
     "click-to-do-draft-with-copilot-missing",
     "click-to-do-missing",
     "click-to-do-not-working-outlook",
-    "click-to-do-right-click-menu-missing"
+    "click-to-do-open-with-app-missing"
   ],
   "click-to-do-missing": [
     "click-to-do-summarize-missing",
@@ -2491,51 +2557,99 @@
   ],
   "click-to-do-not-showing-on-text-select": [
     "amd-ryzen-ai-npu-not-showing-up",
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer"
+  ],
+  "click-to-do-not-working-images": [
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
     "click-to-do-crashes-file-explorer",
-    "click-to-do-disabled-group-policy",
-    "click-to-do-draft-with-copilot-missing"
+    "click-to-do-disabled-group-policy"
   ],
   "click-to-do-not-working-on-screenshots": [
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
     "click-to-do-crashes-file-explorer",
-    "click-to-do-disabled-group-policy",
-    "click-to-do-draft-with-copilot-missing",
-    "click-to-do-image-actions-missing"
+    "click-to-do-disabled-group-policy"
   ],
   "click-to-do-not-working-outlook": [
     "click-to-do-image-actions-missing",
     "click-to-do-send-email-not-working",
-    "click-to-do-crashes-file-explorer",
-    "click-to-do-disabled-group-policy"
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table"
   ],
   "click-to-do-not-working-windows-11": [
     "asus-vivobook-s-npu-not-detected",
-    "click-to-do-crashes-file-explorer",
-    "click-to-do-disabled-group-policy",
-    "click-to-do-draft-with-copilot-missing"
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer"
   ],
-  "click-to-do-rewrite-not-working": [
-    "click-to-do-crashes-file-explorer",
-    "click-to-do-disabled-group-policy",
-    "click-to-do-draft-with-copilot-missing",
-    "click-to-do-image-actions-missing"
-  ],
-  "click-to-do-right-click-menu-missing": [
+  "click-to-do-open-with-app-missing": [
+    "click-to-do-summarize-missing",
     "click-to-do-draft-with-copilot-missing",
     "click-to-do-image-actions-missing",
-    "click-to-do-missing",
-    "click-to-do-summarize-missing"
+    "click-to-do-missing"
+  ],
+  "click-to-do-privacy-settings-fix": [
+    "windows-recall-privacy-settings-fix",
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer"
+  ],
+  "click-to-do-rewrite-not-working": [
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer",
+    "click-to-do-disabled-group-policy"
+  ],
+  "click-to-do-right-click-menu-missing": [
+    "copilot-app-missing-start-menu-search",
+    "click-to-do-draft-with-copilot-missing",
+    "click-to-do-image-actions-missing",
+    "click-to-do-missing"
   ],
   "click-to-do-send-email-not-working": [
     "click-to-do-image-actions-missing",
     "click-to-do-not-working-outlook",
-    "click-to-do-crashes-file-explorer",
-    "click-to-do-disabled-group-policy"
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table"
+  ],
+  "click-to-do-sparkle-icon-missing": [
+    "click-to-do-draft-with-copilot-missing",
+    "click-to-do-image-actions-missing",
+    "click-to-do-missing",
+    "click-to-do-open-with-app-missing"
   ],
   "click-to-do-summarize-missing": [
     "click-to-do-missing",
     "120hz-refresh-rate-missing-arm-laptop",
-    "copilot-missing-on-copilot-plus-pc",
-    "npu-missing-after-bios-update"
+    "click-to-do-open-with-app-missing",
+    "copilot-missing-on-copilot-plus-pc"
+  ],
+  "click-to-do-summarize-pdf-not-working": [
+    "click-to-do-summarize-missing",
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer"
+  ],
+  "click-to-do-teams-chat": [
+    "live-captions-vs-teams-captions",
+    "studio-effects-not-working-teams",
+    "teams-crashing-snapdragon-laptop",
+    "click-to-do-bulleted-list-rewrite"
+  ],
+  "click-to-do-touchscreen-not-working": [
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer",
+    "click-to-do-disabled-group-policy"
+  ],
+  "click-to-do-translate-text-missing": [
+    "click-to-do-draft-with-copilot-missing",
+    "click-to-do-image-actions-missing",
+    "click-to-do-missing",
+    "click-to-do-open-with-app-missing"
   ],
   "clock-watchdog-timeout-blue-screen-error-fix": [
     "clock-watchdog-timeout-bsod-windows-11",
@@ -2568,40 +2682,100 @@
     "how-to-fix-compattelrunner-high-cpu-on-asus-laptop"
   ],
   "copilot-app-cache-clear-fix": [
+    "copilot-app-chat-export",
     "copilot-app-crashing",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-notifications-not-working",
-    "copilot-app-slow-loading-fix"
+    "copilot-app-dark-mode-stuck",
+    "copilot-app-high-memory-usage"
+  ],
+  "copilot-app-chat-export": [
+    "copilot-app-cache-clear-fix",
+    "copilot-app-crashing",
+    "copilot-app-dark-mode-stuck",
+    "copilot-app-high-memory-usage"
   ],
   "copilot-app-crashing": [
     "spotify-app-crashing-arm-windows",
     "copilot-app-cache-clear-fix",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-notifications-not-working"
+    "copilot-app-chat-export",
+    "copilot-app-dark-mode-stuck"
+  ],
+  "copilot-app-dark-mode-stuck": [
+    "copilot-app-offline-mode-not-working",
+    "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
+    "copilot-app-crashing"
+  ],
+  "copilot-app-high-memory-usage": [
+    "copilot-high-cpu-usage",
+    "live-captions-high-memory-usage",
+    "recall-high-ram-usage-fix",
+    "copilot-app-cache-clear-fix"
+  ],
+  "copilot-app-missing-start-menu-search": [
+    "click-to-do-right-click-menu-missing",
+    "click-to-do-draft-with-copilot-missing",
+    "click-to-do-image-actions-missing",
+    "click-to-do-open-with-app-missing"
   ],
   "copilot-app-not-opening-windows-11": [
     "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
     "copilot-app-crashing",
-    "copilot-app-notifications-not-working",
-    "copilot-app-slow-loading-fix"
+    "copilot-app-dark-mode-stuck"
   ],
   "copilot-app-notifications-not-working": [
+    "copilot-app-notifications-silent",
     "copilot-app-cache-clear-fix",
-    "copilot-app-crashing",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-slow-loading-fix"
+    "copilot-app-chat-export",
+    "copilot-app-crashing"
+  ],
+  "copilot-app-notifications-silent": [
+    "copilot-app-notifications-not-working",
+    "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
+    "copilot-app-crashing"
+  ],
+  "copilot-app-offline-mode-not-working": [
+    "copilot-app-dark-mode-stuck",
+    "copilot-app-webview2-runtime-error",
+    "copilot-app-work-account-sign-in",
+    "asus-vivobook-s-15-copilot-issues"
+  ],
+  "copilot-app-pin-taskbar-missing": [
+    "click-to-do-draft-with-copilot-missing",
+    "click-to-do-image-actions-missing",
+    "click-to-do-open-with-app-missing",
+    "click-to-do-summarize-missing"
   ],
   "copilot-app-slow-loading-fix": [
     "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
     "copilot-app-crashing",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-notifications-not-working"
+    "copilot-app-dark-mode-stuck"
   ],
   "copilot-app-update-failed-microsoft-store": [
     "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
     "copilot-app-crashing",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-notifications-not-working"
+    "copilot-app-dark-mode-stuck"
+  ],
+  "copilot-app-webview2-runtime-error": [
+    "copilot-app-offline-mode-not-working",
+    "copilot-app-work-account-sign-in",
+    "asus-vivobook-s-15-copilot-issues",
+    "copilot-app-cache-clear-fix"
+  ],
+  "copilot-app-work-account-sign-in": [
+    "copilot-app-offline-mode-not-working",
+    "copilot-app-webview2-runtime-error",
+    "acer-swift-14-ai-copilot-problems",
+    "acer-swift-16-ai-npu-problems"
+  ],
+  "copilot-canvas-not-working": [
+    "acer-swift-14-ai-copilot-problems",
+    "acer-swift-go-14-ai-problems",
+    "ai-pc-new-laptop-setup-checklist",
+    "asus-vivobook-s-15-copilot-issues"
   ],
   "copilot-chat-history-not-syncing": [
     "acer-swift-14-ai-copilot-problems",
@@ -2634,10 +2808,10 @@
     "asus-vivobook-s-15-copilot-issues"
   ],
   "copilot-high-cpu-usage": [
+    "copilot-app-high-memory-usage",
+    "live-captions-high-cpu-usage-fix",
     "studio-effects-high-cpu-usage",
-    "copilot-plus-pc-overheating",
-    "live-captions-high-memory-usage",
-    "npu-high-power-usage-draining-battery"
+    "copilot-plus-pc-overheating"
   ],
   "copilot-image-generation-not-working": [
     "click-to-do-image-actions-missing",
@@ -2645,35 +2819,41 @@
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-go-14-ai-problems"
   ],
+  "copilot-key-double-press-issue": [
+    "asus-vivobook-s-15-copilot-issues",
+    "bitdefender-arm-windows-compatibility",
+    "copilot-app-offline-mode-not-working",
+    "copilot-app-webview2-runtime-error"
+  ],
   "copilot-key-driver-reinstall": [
+    "copilot-key-double-press-issue",
     "copilot-key-not-working-laptop",
     "copilot-key-opens-wrong-app",
-    "copilot-windows-key-c-shortcut-broken",
-    "disable-copilot-key"
+    "copilot-windows-key-c-shortcut-broken"
   ],
   "copilot-key-not-working-laptop": [
+    "clean-install-windows-11-ai-laptop-drivers",
+    "copilot-key-double-press-issue",
     "copilot-key-driver-reinstall",
-    "copilot-key-opens-wrong-app",
-    "copilot-not-available-in-my-region",
-    "copilot-not-responding"
+    "copilot-key-opens-wrong-app"
   ],
   "copilot-key-opens-wrong-app": [
     "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
     "copilot-app-crashing",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-notifications-not-working"
+    "copilot-app-dark-mode-stuck"
   ],
   "copilot-login-loop-windows-11": [
+    "copilot-app-dark-mode-stuck",
     "recall-welcome-screen-loop",
     "acer-swift-14-ai-copilot-problems",
-    "acer-swift-go-14-ai-problems",
-    "ai-pc-new-laptop-setup-checklist"
+    "acer-swift-go-14-ai-problems"
   ],
   "copilot-microphone-permission-denied": [
     "copilot-app-cache-clear-fix",
+    "copilot-app-chat-export",
     "copilot-app-crashing",
-    "copilot-app-not-opening-windows-11",
-    "copilot-app-notifications-not-working"
+    "copilot-app-dark-mode-stuck"
   ],
   "copilot-missing-on-copilot-plus-pc": [
     "120hz-refresh-rate-missing-arm-laptop",
@@ -2684,8 +2864,8 @@
   "copilot-not-available-in-my-region": [
     "copilot-key-not-working-laptop",
     "copilot-not-responding",
-    "acer-swift-14-ai-copilot-problems",
-    "acer-swift-go-14-ai-problems"
+    "npu-not-available-virtual-machine",
+    "acer-swift-14-ai-copilot-problems"
   ],
   "copilot-not-remembering-conversation": [
     "acer-swift-14-ai-copilot-problems",
@@ -2701,9 +2881,9 @@
   ],
   "copilot-not-working-lock-screen": [
     "copilot-plus-pc-blue-screen",
+    "recall-not-capturing-after-lock-screen",
     "recall-welcome-screen-loop",
-    "acer-swift-14-ai-copilot-problems",
-    "acer-swift-go-14-ai-problems"
+    "acer-swift-14-ai-copilot-problems"
   ],
   "copilot-not-working-with-vpn": [
     "acer-swift-14-ai-copilot-problems",
@@ -2762,8 +2942,8 @@
   "copilot-plus-pc-sleep-wake-problems": [
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-go-14-ai-problems",
-    "hp-omnibook-x-copilot-issues",
-    "acer-swift-16-ai-npu-problems"
+    "copilot-app-work-account-sign-in",
+    "copilot-voice-wake-word-not-working"
   ],
   "copilot-plus-pc-slow-boot-fix": [
     "ai-pc-slow-after-windows-update",
@@ -2796,22 +2976,22 @@
     "ai-pc-new-laptop-setup-checklist"
   ],
   "copilot-press-to-talk-not-working": [
+    "copilot-key-double-press-issue",
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-go-14-ai-problems",
-    "ai-pc-new-laptop-setup-checklist",
-    "asus-vivobook-s-15-copilot-issues"
+    "ai-pc-new-laptop-setup-checklist"
   ],
   "copilot-pro-features-not-working": [
     "lg-gram-pro-ai-copilot-not-working",
+    "debloat-copilot-plus-pc-safe-guide",
     "acer-swift-14-ai-copilot-problems",
-    "acer-swift-go-14-ai-problems",
-    "ai-features-draining-laptop-battery"
+    "acer-swift-go-14-ai-problems"
   ],
   "copilot-suggested-prompts-missing": [
     "copilot-missing-on-copilot-plus-pc",
+    "studio-effects-per-app-toggle-missing",
     "task-manager-npu-tab-missing",
-    "windows-copilot-runtime-components-missing",
-    "120hz-refresh-rate-missing-arm-laptop"
+    "windows-copilot-runtime-components-missing"
   ],
   "copilot-vision-not-working-windows": [
     "copilot-edge-sidebar-not-working",
@@ -2820,10 +3000,16 @@
     "acer-swift-go-14-ai-problems"
   ],
   "copilot-voice-mode-not-working": [
+    "copilot-app-dark-mode-stuck",
+    "copilot-app-offline-mode-not-working",
+    "copilot-voice-wake-word-not-working",
+    "acer-swift-14-ai-copilot-problems"
+  ],
+  "copilot-voice-wake-word-not-working": [
+    "copilot-plus-pc-sleep-wake-problems",
+    "copilot-voice-mode-not-working",
     "acer-swift-14-ai-copilot-problems",
-    "acer-swift-go-14-ai-problems",
-    "ai-pc-new-laptop-setup-checklist",
-    "asus-vivobook-s-15-copilot-issues"
+    "acer-swift-go-14-ai-problems"
   ],
   "copilot-web-view-not-loading": [
     "copilot-plus-pc-microphone-not-working",
@@ -2838,10 +3024,10 @@
     "acer-swift-go-14-ai-problems"
   ],
   "copilot-windows-key-c-shortcut-broken": [
+    "copilot-key-double-press-issue",
     "copilot-key-driver-reinstall",
     "copilot-key-not-working-laptop",
-    "copilot-key-opens-wrong-app",
-    "disable-copilot-key"
+    "copilot-key-opens-wrong-app"
   ],
   "cortana-high-cpu-windows-11-troubleshooting": [
     "antimalware-service-executable-high-cpu-fix-troubleshooting",
@@ -2903,17 +3089,29 @@
     "how-to-fix-cumulative-update-fails-to-install-on-lenovo-laptop",
     "how-to-fix-cumulative-update-fails-to-install-on-windows-10"
   ],
+  "customize-click-to-do-keyboard-shortcut": [
+    "recall-keyboard-shortcut-not-working",
+    "click-to-do-bulleted-list-rewrite",
+    "click-to-do-copy-as-table",
+    "click-to-do-crashes-file-explorer"
+  ],
   "davinci-resolve-arm-windows-laptop": [
     "adobe-photoshop-arm-laptop-issues",
+    "audio-interface-not-working-arm-laptop",
     "obs-studio-arm-windows-issues",
-    "120hz-refresh-rate-missing-arm-laptop",
-    "android-emulator-not-working-arm-laptop"
+    "python-arm-windows-install-issues"
+  ],
+  "debloat-copilot-plus-pc-safe-guide": [
+    "copilot-pro-features-not-working",
+    "lg-gram-pro-ai-copilot-not-working",
+    "uninstall-copilot-windows-11",
+    "acer-swift-14-ai-copilot-problems"
   ],
   "delete-recall-snapshots": [
     "how-to-export-recall-snapshots",
+    "move-recall-snapshots-another-drive",
     "recall-duplicate-snapshots-issue",
-    "recall-snapshots-external-drive",
-    "recall-snapshots-missing"
+    "recall-pin-windows-hello-required"
   ],
   "dell-battery-health-unknown-troubleshooting": [
     "how-to-fix-battery-health-unknown-on-dell-laptop",
@@ -2924,8 +3122,8 @@
   "dell-inspiron-14-plus-ai-issues": [
     "ai-features-draining-laptop-battery",
     "copilot-pro-features-not-working",
-    "dell-latitude-7455-copilot-issues",
-    "dell-xps-13-snapdragon-problems"
+    "debloat-copilot-plus-pc-safe-guide",
+    "dell-latitude-7455-copilot-issues"
   ],
   "dell-laptop-battery-not-charging-troubleshooting": [
     "laptop-battery-not-charging-troubleshooting",
@@ -2939,11 +3137,17 @@
     "dell-xps-14-snapdragon-npu-issues",
     "lenovo-thinkpad-t14s-snapdragon-issues"
   ],
+  "dell-optimizer-ai-audio-issues": [
+    "audio-interface-not-working-arm-laptop",
+    "dell-latitude-7455-copilot-issues",
+    "dell-xps-13-snapdragon-problems",
+    "dell-xps-14-snapdragon-npu-issues"
+  ],
   "dell-xps-13-snapdragon-problems": [
     "dell-xps-14-snapdragon-npu-issues",
     "dell-latitude-7455-copilot-issues",
     "external-monitor-issues-snapdragon-laptop",
-    "asus-vivobook-s-15-copilot-issues"
+    "amd-xdna2-npu-driver-issues"
   ],
   "dell-xps-14-snapdragon-npu-issues": [
     "dell-xps-13-snapdragon-problems",
@@ -2972,14 +3176,14 @@
   "directml-not-using-npu-windows-11": [
     "app-not-using-npu-acceleration",
     "manually-install-intel-npu-driver-inf",
-    "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-16-ai-npu-problems"
+    "onnxruntime-directml-fallback-cpu",
+    "45-tops-vs-40-tops-npu-difference"
   ],
   "disable-copilot-key": [
+    "copilot-key-double-press-issue",
     "copilot-key-driver-reinstall",
     "copilot-key-not-working-laptop",
-    "copilot-key-opens-wrong-app",
-    "copilot-windows-key-c-shortcut-broken"
+    "copilot-key-opens-wrong-app"
   ],
   "disable-windows-ai-services": [
     "how-to-disable-npu-device-manager",
@@ -3189,7 +3393,7 @@
     "copilot-plus-pc-ram-upgrade-possible",
     "can-you-install-x86-windows-on-snapdragon-laptop",
     "do-i-need-npu-laptop",
-    "ai-boost-greyed-out-task-manager"
+    "move-recall-snapshots-another-drive"
   ],
   "epson-printer-arm-laptop": [
     "printer-not-working-arm-laptop",
@@ -3212,8 +3416,8 @@
   "external-monitor-issues-snapdragon-laptop": [
     "dell-xps-13-snapdragon-problems",
     "display-scaling-issues-snapdragon-laptop",
-    "asus-vivobook-s-15-copilot-issues",
-    "bluetooth-issues-snapdragon-laptop"
+    "amd-xdna2-npu-driver-issues",
+    "asus-vivobook-s-15-copilot-issues"
   ],
   "external-monitor-not-detected-troubleshooting": [
     "troubleshoot-external-monitor-not-detected",
@@ -3222,16 +3426,16 @@
     "how-to-fix-external-monitor-not-detected-after-windows-11-update"
   ],
   "eye-contact-effect-not-working": [
+    "studio-effects-teleprompter-eye-contact",
     "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
-    "how-to-reinstall-studio-effects-driver",
-    "how-to-turn-off-studio-effects"
+    "how-to-reinstall-studio-effects-driver"
   ],
   "fast-startup-issues-arm-laptop": [
     "acer-swift-16-ai-npu-problems",
     "msi-prestige-ai-evo-problems",
-    "how-to-export-recall-snapshots",
-    "hp-omnibook-ultra-npu-driver-issues"
+    "bitdefender-arm-windows-compatibility",
+    "copilot-app-work-account-sign-in"
   ],
   "faulty-hardware-corrupted-page-blue-screen-error-fix": [
     "faulty-hardware-corrupted-page-troubleshooting",
@@ -3292,6 +3496,12 @@
     "how-to-fix-fingerprint-reader-not-working-on-windows-10",
     "how-to-fix-fingerprint-reader-not-working-step-by-step",
     "troubleshoot-fingerprint-reader-not-working"
+  ],
+  "firefox-arm64-windows-issues": [
+    "cisco-anyconnect-arm64-windows",
+    "adobe-photoshop-arm-laptop-issues",
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna2-npu-driver-issues"
   ],
   "fix-100-percent-disk-usage-windows-11": [
     "how-to-fix-superfetch-high-disk-usage-on-hp-laptop",
@@ -3529,9 +3739,9 @@
   ],
   "games-not-running-snapdragon-laptop": [
     "bitlocker-issues-snapdragon-laptop",
+    "clean-install-windows-11-ai-laptop-drivers",
     "copilot-key-not-working-laptop",
-    "microsoft-office-slow-snapdragon-laptop",
-    "steam-games-arm-laptop"
+    "microsoft-office-slow-snapdragon-laptop"
   ],
   "gamingservices-high-cpu-usage-troubleshooting": [
     "troubleshoot-gamingservices-high-cpu-usage",
@@ -3544,6 +3754,12 @@
     "120hz-refresh-rate-missing-arm-laptop",
     "45-tops-vs-40-tops-npu-difference",
     "acer-swift-14-ai-copilot-problems"
+  ],
+  "git-arm64-windows-setup": [
+    "canon-printer-driver-arm64-windows",
+    "chrome-arm64-crashing-windows",
+    "cisco-anyconnect-arm64-windows",
+    "firefox-arm64-windows-issues"
   ],
   "hdmi-not-working-on-laptop-troubleshooting": [
     "audio-driver-keeps-crashing-troubleshooting",
@@ -5406,10 +5622,10 @@
     "how-to-check-driver-version-in-device-manager-on-windows-10"
   ],
   "how-to-check-if-app-is-arm-native": [
+    "slack-arm-windows-slow",
+    "vscode-arm-native-vs-x64",
     "120hz-refresh-rate-missing-arm-laptop",
-    "adobe-photoshop-arm-laptop-issues",
-    "ai-laptop-buying-guide",
-    "android-emulator-not-working-arm-laptop"
+    "adobe-photoshop-arm-laptop-issues"
   ],
   "how-to-check-if-laptop-is-copilot-plus-pc": [
     "acer-swift-14-ai-copilot-problems",
@@ -5456,8 +5672,8 @@
   "how-to-check-npu-tops-windows-11": [
     "45-tops-vs-40-tops-npu-difference",
     "check-if-laptop-has-npu",
-    "acer-swift-16-ai-npu-problems",
-    "ai-laptop-buying-guide"
+    "check-npu-firmware-version-windows",
+    "acer-swift-16-ai-npu-problems"
   ],
   "how-to-check-update-installation-date-in-windows-11-24h2": [
     "how-to-check-update-installation-date-on-windows-11",
@@ -6120,10 +6336,10 @@
     "how-to-enable-hidden-devices-in-device-manager-on-laptop"
   ],
   "how-to-enable-npu-in-bios": [
+    "check-npu-firmware-version-windows",
     "dell-xps-14-snapdragon-npu-issues",
     "microsoft-surface-pro-npu-not-detected",
-    "npu-missing-after-bios-update",
-    "45-tops-vs-40-tops-npu-difference"
+    "npu-missing-after-bios-update"
   ],
   "how-to-enablement-package-install-in-windows-11-24h2": [
     "feature-update-to-windows-11-24h2-failed-troubleshooting",
@@ -26028,10 +26244,10 @@
     "how-to-read-dump-files-with-windbg-on-windows-10"
   ],
   "how-to-reinstall-studio-effects-driver": [
+    "studio-effects-camera-black-driver-update",
     "studio-effects-driver-update-required",
     "automatic-framing-not-working-windows-11",
-    "background-blur-not-working-studio-effects",
-    "copilot-key-driver-reinstall"
+    "background-blur-not-working-studio-effects"
   ],
   "how-to-reinstall-wifi-driver-in-windows-11-24h2": [
     "best-way-to-reinstall-wifi-driver",
@@ -26679,7 +26895,7 @@
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-16-ai-npu-problems",
     "acer-swift-go-14-ai-problems",
-    "bitlocker-issues-snapdragon-laptop"
+    "amd-xdna2-npu-driver-issues"
   ],
   "hp-laptop-battery-drains-in-sleep-troubleshooting": [
     "troubleshoot-laptop-battery-drains-in-sleep-mode",
@@ -26691,13 +26907,13 @@
     "snapdragon-x-elite-npu-driver-issues",
     "samsung-galaxy-book5-pro-npu-issues",
     "acer-swift-16-ai-npu-problems",
-    "lenovo-thinkpad-t14s-snapdragon-issues"
+    "amd-ryzen-ai-max-npu-issues"
   ],
   "hp-omnibook-x-copilot-issues": [
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-go-14-ai-problems",
-    "asus-vivobook-s-15-copilot-issues",
-    "asus-zenbook-a14-ai-issues"
+    "amd-xdna2-npu-driver-issues",
+    "asus-vivobook-s-15-copilot-issues"
   ],
   "hyper-v-setup-arm-laptop": [
     "120hz-refresh-rate-missing-arm-laptop",
@@ -26738,20 +26954,32 @@
   "intel-ai-boost-driver-not-installing": [
     "intel-npu-driver-update-stuck",
     "amd-xdna-npu-driver-not-installing",
+    "clean-install-windows-11-ai-laptop-drivers",
+    "intel-npu-driver-clean-install-ddu"
+  ],
+  "intel-ai-playground-npu-not-detected": [
+    "intel-npu-driver-clean-install-ddu",
     "intel-npu-driver-update-failed",
-    "manually-install-intel-npu-driver-inf"
+    "intel-npu-driver-update-stuck",
+    "intel-npu-firmware-update-stuck"
   ],
   "intel-lunar-lake-vs-amd-strix-point": [
     "which-npu-is-best-2026",
     "amd-npu-driver-update-failed",
-    "amd-ryzen-ai-npu-not-showing-up",
-    "amd-xdna-npu-driver-not-installing"
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-ryzen-ai-npu-not-showing-up"
+  ],
+  "intel-npu-driver-clean-install-ddu": [
+    "manually-install-intel-npu-driver-inf",
+    "reinstall-npu-driver-clean-install",
+    "clean-driver-store-npu-leftovers",
+    "clean-install-windows-11-ai-laptop-drivers"
   ],
   "intel-npu-driver-update-failed": [
     "amd-npu-driver-update-failed",
     "intel-npu-driver-update-stuck",
-    "intel-npu-firmware-update-stuck",
-    "manually-install-intel-npu-driver-inf"
+    "intel-npu-driver-clean-install-ddu",
+    "intel-npu-firmware-update-stuck"
   ],
   "intel-npu-driver-update-stuck": [
     "intel-npu-driver-update-failed",
@@ -26764,6 +26992,12 @@
     "intel-npu-driver-update-failed",
     "npu-firmware-update-failed-laptop",
     "amd-npu-driver-update-failed"
+  ],
+  "intel-npu-not-waking-from-sleep": [
+    "clean-driver-store-npu-leftovers",
+    "intel-ai-boost-driver-not-installing",
+    "intel-ai-playground-npu-not-detected",
+    "intel-npu-driver-clean-install-ddu"
   ],
   "intel-wifi-6-ax201-not-working-troubleshooting": [
     "audio-driver-keeps-crashing-troubleshooting",
@@ -26798,8 +27032,8 @@
   "is-my-laptop-ai-pc-compatible": [
     "ai-laptop-buying-guide",
     "check-if-laptop-has-npu",
-    "how-to-check-if-app-is-arm-native",
-    "how-to-check-if-laptop-is-copilot-plus-pc"
+    "check-npu-firmware-version-windows",
+    "how-to-check-if-app-is-arm-native"
   ],
   "kernel-mode-heap-corruption-blue-screen-error-fix": [
     "how-to-fix-kernel-mode-heap-corruption-youtube",
@@ -27014,8 +27248,8 @@
   "laptop-fan-loud-ai-tasks": [
     "copilot-high-cpu-usage",
     "copilot-plus-pc-overheating",
-    "npu-overheating-laptop",
-    "npu-vs-gpu-which-runs-ai-tasks"
+    "npu-overheating-ai-workload",
+    "npu-overheating-laptop"
   ],
   "laptop-fan-loud-idle-windows-11-troubleshooting": [
     "troubleshoot-laptop-fan-loud-idle-windows-11",
@@ -27149,131 +27383,203 @@
     "dell-latitude-7455-copilot-issues",
     "hp-omnibook-ultra-npu-driver-issues"
   ],
+  "lenovo-vantage-ai-features-not-working": [
+    "ai-features-draining-laptop-battery",
+    "copilot-pro-features-not-working",
+    "debloat-copilot-plus-pc-safe-guide",
+    "dell-inspiron-14-plus-ai-issues"
+  ],
   "lenovo-yoga-slim-7x-recall-issues": [
     "lenovo-yoga-slim-npu-issues",
-    "lenovo-thinkpad-t14s-snapdragon-issues",
-    "recall-missing-snapshot-images",
-    "recall-search-not-finding-anything"
+    "recall-snapshot-encryption-issues",
+    "recall-multi-user-account-issues",
+    "lenovo-thinkpad-t14s-snapdragon-issues"
   ],
   "lenovo-yoga-slim-npu-issues": [
     "lenovo-yoga-slim-7x-recall-issues",
+    "amd-xdna2-npu-driver-issues",
     "acer-swift-16-ai-npu-problems",
-    "dell-xps-13-snapdragon-problems",
-    "dell-xps-14-snapdragon-npu-issues"
+    "amd-ryzen-ai-max-npu-issues"
   ],
   "lg-gram-ai-copilot-issues": [
     "asus-vivobook-s-15-copilot-issues",
     "dell-latitude-7455-copilot-issues",
     "asus-zenbook-a14-ai-issues",
-    "copilot-plus-pc-ssd-upgrade-guide"
+    "copilot-app-offline-mode-not-working"
   ],
   "lg-gram-pro-ai-copilot-not-working": [
     "copilot-pro-features-not-working",
+    "copilot-key-double-press-issue",
     "copilot-key-driver-reinstall",
-    "copilot-key-not-working-laptop",
-    "copilot-key-opens-wrong-app"
+    "copilot-key-not-working-laptop"
   ],
-  "live-captions-caption-box-disappears": [
+  "live-captions-auto-start-boot": [
+    "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
     "live-captions-draining-battery",
-    "live-captions-high-memory-usage",
-    "live-captions-language-pack-download-failed"
+    "live-captions-font-size-customization"
+  ],
+  "live-captions-caption-box-disappears": [
+    "live-captions-auto-start-boot",
+    "live-captions-delay-fix",
+    "live-captions-draining-battery",
+    "live-captions-font-size-customization"
   ],
   "live-captions-delay-fix": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-draining-battery",
-    "live-captions-high-memory-usage",
-    "live-captions-language-pack-download-failed"
+    "live-captions-font-size-customization"
   ],
   "live-captions-draining-battery": [
+    "studio-effects-battery-impact-reduce",
+    "live-captions-vs-teams-captions",
     "npu-high-power-usage-draining-battery",
-    "ai-features-draining-laptop-battery",
-    "live-captions-caption-box-disappears",
-    "live-captions-delay-fix"
+    "ai-features-draining-laptop-battery"
   ],
-  "live-captions-high-memory-usage": [
-    "recall-high-ram-usage-fix",
-    "copilot-high-cpu-usage",
-    "live-captions-caption-box-disappears",
-    "live-captions-delay-fix"
-  ],
-  "live-captions-language-pack-download-failed": [
-    "live-captions-wrong-language",
+  "live-captions-font-size-customization": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
     "live-captions-draining-battery"
   ],
+  "live-captions-high-cpu-usage-fix": [
+    "live-captions-high-memory-usage",
+    "copilot-high-cpu-usage",
+    "studio-effects-high-cpu-usage",
+    "copilot-app-high-memory-usage"
+  ],
+  "live-captions-high-memory-usage": [
+    "live-captions-high-cpu-usage-fix",
+    "copilot-app-high-memory-usage",
+    "recall-high-ram-usage-fix",
+    "copilot-high-cpu-usage"
+  ],
+  "live-captions-language-pack-download-failed": [
+    "live-captions-offline-speech-models",
+    "live-captions-wrong-language",
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears"
+  ],
   "live-captions-microphone-not-working": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
+  ],
+  "live-captions-multiple-languages-switch": [
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears",
+    "live-captions-delay-fix",
+    "live-captions-draining-battery"
+  ],
+  "live-captions-netflix-app-not-working": [
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears",
+    "live-captions-delay-fix",
+    "live-captions-draining-battery"
   ],
   "live-captions-no-audio-detected": [
-    "live-captions-caption-box-disappears",
-    "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-not-working-hdmi-audio",
+    "live-captions-system-audio-not-working",
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears"
   ],
   "live-captions-not-working-bluetooth-headset": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
+  ],
+  "live-captions-not-working-hdmi-audio": [
+    "live-captions-no-audio-detected",
+    "live-captions-system-audio-not-working",
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears"
   ],
   "live-captions-not-working-windows-11": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
   ],
   "live-captions-not-working-youtube": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
+  ],
+  "live-captions-offline-speech-models": [
+    "live-captions-language-pack-download-failed",
+    "live-captions-speech-model-error",
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears"
   ],
   "live-captions-overlap-fullscreen-apps": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
+  ],
+  "live-captions-profanity-filter-settings": [
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears",
+    "live-captions-delay-fix",
+    "live-captions-draining-battery"
   ],
   "live-captions-speech-model-error": [
+    "live-captions-offline-speech-models",
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
-    "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-delay-fix"
   ],
   "live-captions-stuck-on-loading": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
+  ],
+  "live-captions-system-audio-not-working": [
+    "live-captions-no-audio-detected",
+    "live-captions-not-working-hdmi-audio",
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears"
+  ],
+  "live-captions-teams-meeting": [
+    "live-captions-vs-teams-captions",
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears",
+    "live-captions-delay-fix"
   ],
   "live-captions-translation-not-working": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
+    "live-captions-draining-battery"
+  ],
+  "live-captions-vs-teams-captions": [
     "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-teams-meeting",
+    "click-to-do-teams-chat",
+    "live-captions-auto-start-boot"
   ],
   "live-captions-window-wont-move": [
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
     "live-captions-delay-fix",
-    "live-captions-draining-battery",
-    "live-captions-high-memory-usage"
+    "live-captions-draining-battery"
   ],
   "live-captions-wrong-language": [
     "live-captions-language-pack-download-failed",
+    "live-captions-auto-start-boot",
     "live-captions-caption-box-disappears",
-    "live-captions-delay-fix",
-    "live-captions-draining-battery"
+    "live-captions-delay-fix"
   ],
   "lm-studio-npu-not-detected": [
+    "intel-ai-playground-npu-not-detected",
     "openvino-npu-not-detected-windows",
     "studio-effects-npu-required-error",
-    "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-16-ai-npu-problems"
+    "studio-effects-npu-unavailable-error"
   ],
   "low-disk-space-on-c-drive-troubleshooting": [
     "best-way-to-fix-low-disk-space-on-c-drive",
@@ -27300,10 +27606,10 @@
     "how-to-fix-machine-check-exception-after-windows-11-update"
   ],
   "manually-install-intel-npu-driver-inf": [
+    "intel-npu-driver-clean-install-ddu",
     "intel-npu-driver-update-failed",
     "intel-npu-driver-update-stuck",
-    "npu-conflicts-with-intel-graphics-driver",
-    "qualcomm-hexagon-npu-driver-windows"
+    "npu-conflicts-with-intel-graphics-driver"
   ],
   "media-creation-tool-error-0x80070002-troubleshooting": [
     "best-way-to-fix-media-creation-tool-error-0x80070002",
@@ -27362,8 +27668,8 @@
   "microsoft-office-slow-snapdragon-laptop": [
     "x86-app-slow-on-snapdragon",
     "games-not-running-snapdragon-laptop",
-    "teams-crashing-snapdragon-laptop",
-    "ai-background-processes-windows-11"
+    "qualcomm-ai-hub-models-not-running",
+    "teams-crashing-snapdragon-laptop"
   ],
   "microsoft-store-error-blue-screen-error-fix": [
     "how-to-fix-microsoft-store-error-after-windows-11-update",
@@ -27381,19 +27687,25 @@
     "microsoft-surface-pro-npu-not-detected",
     "recall-requires-microsoft-account-fix",
     "surface-pro-11-pen-not-working",
-    "copilot-app-update-failed-microsoft-store"
+    "click-to-do-teams-chat"
   ],
   "microsoft-surface-pro-npu-not-detected": [
     "microsoft-surface-pro-11-recall-issues",
     "asus-vivobook-s-npu-not-detected",
-    "dell-xps-14-snapdragon-npu-issues",
-    "how-to-enable-npu-in-bios"
+    "check-npu-firmware-version-windows",
+    "dell-xps-14-snapdragon-npu-issues"
   ],
   "modern-setup-host-high-cpu-troubleshooting": [
     "best-way-to-fix-modern-setup-host-high-cpu",
     "how-do-i-fix-modern-setup-host-high-cpu",
     "how-to-fix-modern-setup-host-high-cpu-after-windows-11-update",
     "how-to-fix-modern-setup-host-high-cpu-in-windows-11-24h2"
+  ],
+  "move-recall-snapshots-another-drive": [
+    "recall-snapshots-external-drive",
+    "delete-recall-snapshots",
+    "enable-recall-on-unsupported-pc",
+    "how-to-export-recall-snapshots"
   ],
   "msi-battery-not-charging-troubleshooting": [
     "laptop-battery-not-charging-when-plugged-in-troubleshooting",
@@ -27406,6 +27718,12 @@
     "fast-startup-issues-arm-laptop",
     "samsung-galaxy-book5-pro-npu-issues",
     "acer-swift-go-14-ai-problems"
+  ],
+  "myasus-ai-noise-cancellation-problems": [
+    "acer-swift-14-ai-copilot-problems",
+    "acer-swift-16-ai-npu-problems",
+    "acer-swift-go-14-ai-problems",
+    "amd-xdna2-npu-driver-issues"
   ],
   "netflix-4k-not-playing-snapdragon": [
     "app-not-working-snapdragon-x-laptop",
@@ -27421,9 +27739,9 @@
   ],
   "neural-processors-missing-device-manager": [
     "click-to-do-right-click-menu-missing",
+    "copilot-app-missing-start-menu-search",
     "how-to-disable-npu-device-manager",
-    "npu-unknown-device-in-device-manager",
-    "studio-effects-settings-missing-quick-settings"
+    "npu-unknown-device-in-device-manager"
   ],
   "night-light-not-working-troubleshooting": [
     "how-to-fix-night-light-not-working-youtube",
@@ -27443,101 +27761,143 @@
     "how-to-fix-microphone-not-working-on-laptop-youtube",
     "how-to-fix-no-sound-on-laptop-on-windows-11"
   ],
+  "nodejs-arm64-windows-problems": [
+    "canon-printer-driver-arm64-windows",
+    "acer-swift-14-ai-copilot-problems",
+    "acer-swift-16-ai-npu-problems",
+    "acer-swift-go-14-ai-problems"
+  ],
+  "npu-benchmark-tools-windows": [
+    "npu-exclusive-mode-app-conflict",
+    "which-npu-is-best-2026",
+    "45-tops-vs-40-tops-npu-difference",
+    "acer-swift-16-ai-npu-problems"
+  ],
   "npu-causes-blue-screen-windows-11": [
     "npu-causing-game-stutter-fix",
     "npu-high-power-usage-draining-battery",
-    "npu-usage-high-idle",
-    "45-tops-vs-40-tops-npu-difference"
+    "npu-shared-memory-allocation-fix",
+    "npu-usage-high-idle"
   ],
   "npu-causing-game-stutter-fix": [
     "npu-causes-blue-screen-windows-11",
+    "npu-dpc-latency-stutter-fix",
+    "npu-shared-memory-allocation-fix",
+    "45-tops-vs-40-tops-npu-difference"
+  ],
+  "npu-conflicts-with-intel-graphics-driver": [
+    "intel-npu-driver-clean-install-ddu",
+    "intel-npu-driver-update-failed",
+    "intel-npu-driver-update-stuck",
+    "manually-install-intel-npu-driver-inf"
+  ],
+  "npu-disappeared-after-windows-update": [
+    "npu-missing-after-bios-update",
+    "npu-missing-after-25h2-update",
+    "task-manager-npu-tab-missing",
+    "ai-pc-slow-after-windows-update"
+  ],
+  "npu-dpc-latency-stutter-fix": [
+    "npu-causing-game-stutter-fix",
     "45-tops-vs-40-tops-npu-difference",
     "acer-swift-16-ai-npu-problems",
     "ai-laptop-warranty-npu-repair"
   ],
-  "npu-conflicts-with-intel-graphics-driver": [
-    "intel-npu-driver-update-failed",
-    "intel-npu-driver-update-stuck",
-    "manually-install-intel-npu-driver-inf",
-    "amd-npu-driver-update-failed"
-  ],
-  "npu-disappeared-after-windows-update": [
-    "npu-missing-after-bios-update",
-    "task-manager-npu-tab-missing",
-    "ai-pc-slow-after-windows-update",
-    "amd-npu-driver-update-failed"
-  ],
   "npu-driver-error-code-31-fix": [
+    "npu-driver-error-code-39-fix",
     "npu-driver-error-code-43",
     "npu-error-code-52-unsigned-driver",
-    "npu-error-code-10-device-cannot-start",
-    "npu-error-code-28-drivers-not-installed"
+    "npu-error-code-10-device-cannot-start"
+  ],
+  "npu-driver-error-code-39-fix": [
+    "npu-driver-error-code-31-fix",
+    "npu-driver-error-code-43",
+    "npu-error-code-52-unsigned-driver",
+    "npu-error-code-10-device-cannot-start"
   ],
   "npu-driver-error-code-43": [
     "npu-driver-error-code-31-fix",
+    "npu-driver-error-code-39-fix",
     "npu-error-code-52-unsigned-driver",
-    "npu-error-code-10-device-cannot-start",
-    "npu-error-code-28-drivers-not-installed"
+    "npu-error-code-10-device-cannot-start"
   ],
   "npu-driver-incompatible-windows-11-24h2": [
     "amd-npu-driver-update-failed",
+    "amd-ryzen-ai-max-npu-issues",
     "amd-xdna-npu-driver-not-installing",
-    "clean-driver-store-npu-leftovers",
-    "hp-omnibook-ultra-npu-driver-issues"
+    "amd-xdna2-npu-driver-issues"
   ],
   "npu-driver-memory-leak-fix": [
     "amd-npu-driver-update-failed",
+    "amd-ryzen-ai-max-npu-issues",
     "amd-xdna-npu-driver-not-installing",
-    "clean-driver-store-npu-leftovers",
-    "hp-omnibook-ultra-npu-driver-issues"
+    "amd-xdna2-npu-driver-issues"
   ],
   "npu-driver-rollback-windows-11": [
     "qualcomm-npu-driver-rollback-windows-11",
     "amd-npu-driver-update-failed",
-    "amd-xdna-npu-driver-not-installing",
-    "clean-driver-store-npu-leftovers"
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna-npu-driver-not-installing"
   ],
   "npu-driver-signature-verification-failed": [
     "amd-npu-driver-update-failed",
     "intel-npu-driver-update-failed",
-    "amd-xdna-npu-driver-not-installing",
-    "clean-driver-store-npu-leftovers"
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna-npu-driver-not-installing"
   ],
   "npu-error-code-10-device-cannot-start": [
     "npu-driver-error-code-31-fix",
+    "npu-driver-error-code-39-fix",
     "npu-driver-error-code-43",
-    "npu-error-code-28-drivers-not-installed",
-    "npu-error-code-52-unsigned-driver"
+    "npu-error-code-28-drivers-not-installed"
   ],
   "npu-error-code-28-drivers-not-installed": [
     "npu-driver-error-code-31-fix",
+    "npu-driver-error-code-39-fix",
     "npu-driver-error-code-43",
-    "npu-error-code-10-device-cannot-start",
-    "npu-error-code-52-unsigned-driver"
+    "npu-error-code-10-device-cannot-start"
   ],
   "npu-error-code-52-unsigned-driver": [
     "npu-driver-error-code-31-fix",
+    "npu-driver-error-code-39-fix",
     "npu-driver-error-code-43",
-    "npu-error-code-10-device-cannot-start",
-    "npu-error-code-28-drivers-not-installed"
+    "npu-error-code-10-device-cannot-start"
+  ],
+  "npu-exclusive-mode-app-conflict": [
+    "app-not-using-npu-acceleration",
+    "copilot-app-dark-mode-stuck",
+    "copilot-app-offline-mode-not-working",
+    "npu-benchmark-tools-windows"
   ],
   "npu-firmware-update-failed-laptop": [
     "amd-npu-driver-update-failed",
     "intel-npu-driver-update-failed",
     "intel-npu-firmware-update-stuck",
-    "intel-npu-driver-update-stuck"
+    "check-npu-firmware-version-windows"
   ],
   "npu-high-power-usage-draining-battery": [
     "npu-usage-high-idle",
     "live-captions-draining-battery",
-    "recall-draining-battery",
-    "ai-features-draining-laptop-battery"
+    "npu-usage-spikes-idle",
+    "recall-draining-battery"
+  ],
+  "npu-missing-after-25h2-update": [
+    "npu-missing-after-bios-update",
+    "recall-broken-after-25h2-update",
+    "ai-pc-slow-after-windows-update",
+    "npu-disappeared-after-windows-update"
   ],
   "npu-missing-after-bios-update": [
     "npu-disappeared-after-windows-update",
+    "npu-missing-after-25h2-update",
     "120hz-refresh-rate-missing-arm-laptop",
-    "click-to-do-missing",
-    "click-to-do-summarize-missing"
+    "click-to-do-missing"
+  ],
+  "npu-not-available-virtual-machine": [
+    "copilot-not-available-in-my-region",
+    "recall-not-available-on-my-pc",
+    "45-tops-vs-40-tops-npu-difference",
+    "acer-swift-16-ai-npu-problems"
   ],
   "npu-not-detected-windows-11": [
     "asus-vivobook-s-npu-not-detected",
@@ -27552,22 +27912,40 @@
     "acer-swift-16-ai-npu-problems"
   ],
   "npu-not-used-by-apps-windows-11": [
-    "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-16-ai-npu-problems",
-    "ai-laptop-warranty-npu-repair",
-    "amd-npu-driver-update-failed"
-  ],
-  "npu-overheating-laptop": [
-    "copilot-plus-pc-overheating",
+    "onnxruntime-directml-fallback-cpu",
     "45-tops-vs-40-tops-npu-difference",
     "acer-swift-16-ai-npu-problems",
     "ai-laptop-warranty-npu-repair"
+  ],
+  "npu-overheating-ai-workload": [
+    "npu-overheating-laptop",
+    "45-tops-vs-40-tops-npu-difference",
+    "acer-swift-16-ai-npu-problems",
+    "ai-laptop-warranty-npu-repair"
+  ],
+  "npu-overheating-laptop": [
+    "copilot-plus-pc-overheating",
+    "npu-overheating-ai-workload",
+    "45-tops-vs-40-tops-npu-difference",
+    "acer-swift-16-ai-npu-problems"
+  ],
+  "npu-power-state-stuck-fix": [
+    "copilot-app-dark-mode-stuck",
+    "copilot-app-offline-mode-not-working",
+    "intel-npu-driver-update-stuck",
+    "intel-npu-firmware-update-stuck"
+  ],
+  "npu-shared-memory-allocation-fix": [
+    "npu-causes-blue-screen-windows-11",
+    "npu-causing-game-stutter-fix",
+    "npu-driver-memory-leak-fix",
+    "npu-high-power-usage-draining-battery"
   ],
   "npu-stuck-at-zero-percent-usage": [
     "intel-npu-driver-update-stuck",
     "intel-npu-firmware-update-stuck",
     "npu-high-power-usage-draining-battery",
-    "npu-usage-high-idle"
+    "npu-power-state-stuck-fix"
   ],
   "npu-throttling-under-load-fix": [
     "45-tops-vs-40-tops-npu-difference",
@@ -27583,9 +27961,15 @@
   ],
   "npu-usage-high-idle": [
     "npu-high-power-usage-draining-battery",
-    "copilot-high-cpu-usage",
-    "live-captions-high-memory-usage",
-    "npu-causes-blue-screen-windows-11"
+    "npu-usage-spikes-idle",
+    "copilot-app-high-memory-usage",
+    "copilot-high-cpu-usage"
+  ],
+  "npu-usage-spikes-idle": [
+    "npu-usage-high-idle",
+    "npu-high-power-usage-draining-battery",
+    "npu-causes-blue-screen-windows-11",
+    "npu-shared-memory-allocation-fix"
   ],
   "npu-vs-gpu-which-runs-ai-tasks": [
     "45-tops-vs-40-tops-npu-difference",
@@ -27631,9 +28015,9 @@
   ],
   "obs-studio-arm-windows-issues": [
     "adobe-photoshop-arm-laptop-issues",
+    "audio-interface-not-working-arm-laptop",
     "davinci-resolve-arm-windows-laptop",
-    "studio-effects-zoom-meeting-issues",
-    "120hz-refresh-rate-missing-arm-laptop"
+    "python-arm-windows-install-issues"
   ],
   "onedrive-high-cpu-usage-troubleshooting": [
     "how-to-fix-file-explorer-high-cpu-youtube",
@@ -27648,16 +28032,22 @@
     "how-to-fix-onedrive-high-cpu-usage-on-windows-10"
   ],
   "onnx-runtime-npu-execution-provider-error": [
+    "onnxruntime-directml-fallback-cpu",
+    "copilot-app-webview2-runtime-error",
     "npu-driver-error-code-31-fix",
-    "npu-driver-error-code-43",
-    "npu-error-code-10-device-cannot-start",
-    "npu-error-code-28-drivers-not-installed"
+    "npu-driver-error-code-39-fix"
+  ],
+  "onnxruntime-directml-fallback-cpu": [
+    "onnx-runtime-npu-execution-provider-error",
+    "directml-not-using-npu-windows-11",
+    "npu-disappeared-after-windows-update",
+    "npu-driver-rollback-windows-11"
   ],
   "openvino-npu-not-detected-windows": [
+    "intel-ai-playground-npu-not-detected",
     "lm-studio-npu-not-detected",
     "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-16-ai-npu-problems",
-    "ai-laptop-warranty-npu-repair"
+    "acer-swift-16-ai-npu-problems"
   ],
   "optional-updates-not-installing-windows-11-troubleshooting": [
     "driver-updates-failing-in-windows-update-troubleshooting",
@@ -27723,19 +28113,31 @@
     "android-emulator-not-working-arm-laptop",
     "copilot-plus-pc-data-migration-guide",
     "printer-spooler-crashing-arm-laptop",
-    "x86-app-slow-on-snapdragon"
+    "slack-arm-windows-slow"
+  ],
+  "python-arm-windows-install-issues": [
+    "vscode-arm-native-vs-x64",
+    "adobe-photoshop-arm-laptop-issues",
+    "audio-interface-not-working-arm-laptop",
+    "davinci-resolve-arm-windows-laptop"
+  ],
+  "qualcomm-ai-hub-models-not-running": [
+    "asus-vivobook-s-15-copilot-issues",
+    "dell-latitude-7455-copilot-issues",
+    "games-not-running-snapdragon-laptop",
+    "lenovo-thinkpad-t14s-snapdragon-issues"
   ],
   "qualcomm-hexagon-npu-driver-windows": [
     "reinstall-npu-driver-clean-install",
     "samsung-galaxy-book5-npu-driver",
-    "hp-omnibook-ultra-npu-driver-issues",
-    "manually-install-intel-npu-driver-inf"
+    "snapdragon-x2-npu-driver-problems",
+    "clean-install-windows-11-ai-laptop-drivers"
   ],
   "qualcomm-npu-driver-rollback-windows-11": [
     "npu-driver-rollback-windows-11",
     "qualcomm-hexagon-npu-driver-windows",
     "amd-npu-driver-update-failed",
-    "amd-xdna-npu-driver-not-installing"
+    "amd-ryzen-ai-max-npu-issues"
   ],
   "realtek-audio-driver-not-working-windows-11": [
     "audio-driver-keeps-crashing-troubleshooting",
@@ -27754,6 +28156,24 @@
     "troubleshoot-realtek-microphone-not-working",
     "how-to-fix-microphone-not-working-on-laptop-youtube",
     "airplane-mode-stuck-on-troubleshooting"
+  ],
+  "rebuild-recall-search-index": [
+    "lenovo-yoga-slim-7x-recall-issues",
+    "recall-search-not-finding-anything",
+    "recall-search-operators-not-working",
+    "recall-timeline-search-slow"
+  ],
+  "recall-app-exclusions-not-saving": [
+    "recall-snapshots-not-saving",
+    "app-not-using-npu-acceleration",
+    "app-not-working-snapdragon-x-laptop",
+    "click-to-do-open-with-app-missing"
+  ],
+  "recall-broken-after-25h2-update": [
+    "npu-missing-after-25h2-update",
+    "ai-pc-slow-after-windows-update",
+    "recall-not-working-after-update",
+    "studio-effects-camera-black-driver-update"
   ],
   "recall-database-corrupted-fix": [
     "recall-not-filtering-sensitive-info",
@@ -27776,8 +28196,8 @@
   "recall-duplicate-snapshots-issue": [
     "delete-recall-snapshots",
     "how-to-export-recall-snapshots",
-    "recall-snapshots-external-drive",
-    "recall-snapshots-missing"
+    "move-recall-snapshots-another-drive",
+    "recall-pin-windows-hello-required"
   ],
   "recall-enterprise-managed-device": [
     "delete-recall-snapshots",
@@ -27787,39 +28207,63 @@
   ],
   "recall-group-policy-keeps-disabling": [
     "click-to-do-disabled-group-policy",
+    "move-recall-snapshots-another-drive",
     "recall-draining-battery",
-    "battery-drain-in-sleep-snapdragon-laptop",
-    "bitlocker-issues-snapdragon-laptop"
+    "recall-pin-windows-hello-required"
+  ],
+  "recall-high-disk-io-fix": [
+    "recall-high-ram-usage-fix",
+    "copilot-app-high-memory-usage",
+    "copilot-high-cpu-usage",
+    "live-captions-high-cpu-usage-fix"
   ],
   "recall-high-ram-usage-fix": [
     "recall-using-too-much-disk-space",
+    "copilot-app-high-memory-usage",
     "live-captions-high-memory-usage",
-    "copilot-high-cpu-usage",
-    "how-much-ram-for-ai-pc"
+    "recall-high-disk-io-fix"
+  ],
+  "recall-incognito-private-browsing-capture": [
+    "recall-not-available-on-my-pc",
+    "ai-background-processes-windows-11",
+    "ai-laptop-buying-guide",
+    "ai-laptop-for-creators-guide-2026"
   ],
   "recall-indexing-stuck-fix": [
     "recall-stuck-on-setting-up",
+    "copilot-app-dark-mode-stuck",
     "copilot-login-loop-windows-11",
+    "delete-recall-snapshots"
+  ],
+  "recall-keyboard-shortcut-not-working": [
+    "customize-click-to-do-keyboard-shortcut",
+    "copilot-windows-key-c-shortcut-broken",
     "delete-recall-snapshots",
     "enable-recall-on-unsupported-pc"
   ],
-  "recall-keyboard-shortcut-not-working": [
-    "copilot-windows-key-c-shortcut-broken",
-    "delete-recall-snapshots",
-    "enable-recall-on-unsupported-pc",
-    "how-to-disable-recall-windows-11"
-  ],
   "recall-missing-snapshot-images": [
     "lenovo-yoga-slim-7x-recall-issues",
+    "recall-multi-user-account-issues",
     "recall-opt-in-screen-missing",
-    "recall-snapshot-frequency-settings",
-    "recall-snapshot-viewer-not-opening"
+    "recall-snapshot-encryption-issues"
+  ],
+  "recall-multi-user-account-issues": [
+    "lenovo-yoga-slim-7x-recall-issues",
+    "recall-snapshot-encryption-issues",
+    "recall-missing-snapshot-images",
+    "recall-requires-microsoft-account-fix"
   ],
   "recall-not-available-on-my-pc": [
     "ai-background-processes-windows-11",
-    "ai-laptop-buying-guide",
-    "ai-laptop-for-creators-guide-2026",
-    "ai-pc-vs-normal-laptop-difference"
+    "npu-not-available-virtual-machine",
+    "recall-incognito-private-browsing-capture",
+    "ai-laptop-buying-guide"
+  ],
+  "recall-not-capturing-after-lock-screen": [
+    "copilot-not-working-lock-screen",
+    "recall-broken-after-25h2-update",
+    "recall-not-working-after-update",
+    "recall-opt-in-screen-missing"
   ],
   "recall-not-filtering-sensitive-info": [
     "recall-database-corrupted-fix",
@@ -27828,16 +28272,16 @@
     "acer-swift-go-14-ai-problems"
   ],
   "recall-not-recording-specific-apps": [
+    "arm64ec-apps-explained-fix",
     "copilot-plus-pc-data-migration-guide",
     "delete-recall-snapshots",
-    "enable-recall-on-unsupported-pc",
-    "how-to-disable-recall-windows-11"
+    "enable-recall-on-unsupported-pc"
   ],
   "recall-not-working-after-update": [
+    "recall-broken-after-25h2-update",
     "studio-effects-broken-after-windows-update",
-    "ai-pc-slow-after-windows-update",
-    "npu-disappeared-after-windows-update",
-    "npu-missing-after-bios-update"
+    "studio-effects-camera-black-driver-update",
+    "ai-pc-slow-after-windows-update"
   ],
   "recall-not-working-bitlocker-enabled": [
     "bitlocker-issues-snapdragon-laptop",
@@ -27851,47 +28295,83 @@
     "how-to-disable-recall-windows-11",
     "how-to-export-recall-snapshots"
   ],
+  "recall-onedrive-sync-conflicts": [
+    "delete-recall-snapshots",
+    "enable-recall-on-unsupported-pc",
+    "how-to-disable-recall-windows-11",
+    "how-to-export-recall-snapshots"
+  ],
   "recall-opt-in-screen-missing": [
     "recall-missing-snapshot-images",
+    "recall-not-capturing-after-lock-screen",
     "recall-snapshots-missing",
-    "recall-welcome-screen-loop",
-    "120hz-refresh-rate-missing-arm-laptop"
+    "recall-welcome-screen-loop"
+  ],
+  "recall-parental-controls-family-safety": [
+    "delete-recall-snapshots",
+    "enable-recall-on-unsupported-pc",
+    "how-to-disable-recall-windows-11",
+    "how-to-export-recall-snapshots"
+  ],
+  "recall-pin-windows-hello-required": [
+    "delete-recall-snapshots",
+    "how-to-export-recall-snapshots",
+    "move-recall-snapshots-another-drive",
+    "recall-duplicate-snapshots-issue"
   ],
   "recall-requires-microsoft-account-fix": [
     "microsoft-surface-pro-11-recall-issues",
-    "copilot-app-update-failed-microsoft-store",
-    "delete-recall-snapshots",
-    "enable-recall-on-unsupported-pc"
+    "recall-multi-user-account-issues",
+    "recall-pin-windows-hello-required",
+    "click-to-do-teams-chat"
   ],
   "recall-search-not-finding-anything": [
     "lenovo-yoga-slim-7x-recall-issues",
-    "recall-timeline-search-slow",
-    "semantic-search-not-finding-files",
-    "delete-recall-snapshots"
+    "rebuild-recall-search-index",
+    "recall-search-operators-not-working",
+    "recall-timeline-search-slow"
+  ],
+  "recall-search-operators-not-working": [
+    "lenovo-yoga-slim-7x-recall-issues",
+    "rebuild-recall-search-index",
+    "recall-search-not-finding-anything",
+    "recall-timeline-filters-not-working"
   ],
   "recall-secure-boot-requirement-error": [
+    "copilot-app-webview2-runtime-error",
     "copilot-plus-pc-slow-boot-fix",
     "delete-recall-snapshots",
-    "enable-recall-on-unsupported-pc",
-    "how-to-disable-recall-windows-11"
+    "enable-recall-on-unsupported-pc"
+  ],
+  "recall-snapshot-encryption-issues": [
+    "lenovo-yoga-slim-7x-recall-issues",
+    "recall-multi-user-account-issues",
+    "recall-missing-snapshot-images",
+    "recall-snapshot-frequency-settings"
   ],
   "recall-snapshot-frequency-settings": [
     "windows-recall-privacy-settings-fix",
     "how-to-export-recall-snapshots",
-    "acer-swift-16-ai-npu-problems",
-    "fast-startup-issues-arm-laptop"
+    "recall-snapshot-retention-settings",
+    "acer-swift-16-ai-npu-problems"
+  ],
+  "recall-snapshot-retention-settings": [
+    "recall-snapshot-frequency-settings",
+    "lenovo-yoga-slim-7x-recall-issues",
+    "recall-missing-snapshot-images",
+    "recall-multi-user-account-issues"
   ],
   "recall-snapshot-viewer-not-opening": [
     "lenovo-yoga-slim-7x-recall-issues",
     "recall-missing-snapshot-images",
-    "recall-snapshot-frequency-settings",
-    "copilot-app-not-opening-windows-11"
+    "recall-multi-user-account-issues",
+    "recall-snapshot-encryption-issues"
   ],
   "recall-snapshots-external-drive": [
+    "move-recall-snapshots-another-drive",
     "delete-recall-snapshots",
     "how-to-export-recall-snapshots",
-    "recall-duplicate-snapshots-issue",
-    "recall-snapshots-missing"
+    "recall-duplicate-snapshots-issue"
   ],
   "recall-snapshots-missing": [
     "drivers-missing-windows-arm",
@@ -27902,20 +28382,20 @@
   "recall-snapshots-not-saving": [
     "delete-recall-snapshots",
     "how-to-export-recall-snapshots",
-    "recall-duplicate-snapshots-issue",
-    "recall-snapshots-external-drive"
+    "move-recall-snapshots-another-drive",
+    "recall-app-exclusions-not-saving"
   ],
   "recall-snapshots-paused-fix": [
     "delete-recall-snapshots",
     "how-to-export-recall-snapshots",
-    "recall-duplicate-snapshots-issue",
-    "recall-snapshots-external-drive"
+    "move-recall-snapshots-another-drive",
+    "recall-duplicate-snapshots-issue"
   ],
   "recall-storage-full": [
     "recall-storage-quota-exceeded",
+    "recall-timeline-filters-not-working",
     "recall-timeline-not-loading",
-    "recall-timeline-search-slow",
-    "recall-using-too-much-disk-space"
+    "recall-timeline-search-slow"
   ],
   "recall-storage-quota-exceeded": [
     "recall-storage-full",
@@ -27925,27 +28405,33 @@
   ],
   "recall-stuck-on-setting-up": [
     "recall-indexing-stuck-fix",
+    "copilot-app-dark-mode-stuck",
     "copilot-login-loop-windows-11",
-    "delete-recall-snapshots",
-    "enable-recall-on-unsupported-pc"
+    "delete-recall-snapshots"
+  ],
+  "recall-timeline-filters-not-working": [
+    "recall-search-operators-not-working",
+    "recall-storage-full",
+    "recall-timeline-not-loading",
+    "recall-timeline-search-slow"
   ],
   "recall-timeline-not-loading": [
     "recall-storage-full",
+    "recall-timeline-filters-not-working",
     "recall-timeline-search-slow",
-    "copilot-web-view-not-loading",
-    "delete-recall-snapshots"
+    "copilot-web-view-not-loading"
   ],
   "recall-timeline-search-slow": [
     "lenovo-yoga-slim-7x-recall-issues",
+    "rebuild-recall-search-index",
     "recall-search-not-finding-anything",
-    "recall-storage-full",
-    "recall-timeline-not-loading"
+    "recall-search-operators-not-working"
   ],
   "recall-using-too-much-disk-space": [
     "recall-high-ram-usage-fix",
+    "recall-high-disk-io-fix",
     "recall-storage-full",
-    "ai-features-draining-laptop-battery",
-    "app-not-using-npu-acceleration"
+    "ai-features-draining-laptop-battery"
   ],
   "recall-welcome-screen-loop": [
     "click-to-do-image-actions-missing",
@@ -27984,16 +28470,16 @@
     "how-to-fix-registry-editor-slow-to-open-after-windows-11-update"
   ],
   "reinstall-npu-driver-clean-install": [
+    "clean-install-windows-11-ai-laptop-drivers",
+    "intel-npu-driver-clean-install-ddu",
     "qualcomm-hexagon-npu-driver-windows",
-    "samsung-galaxy-book5-npu-driver",
-    "clean-driver-store-npu-leftovers",
-    "hp-omnibook-ultra-npu-driver-issues"
+    "samsung-galaxy-book5-npu-driver"
   ],
   "remap-copilot-key-windows-11": [
+    "copilot-key-double-press-issue",
     "copilot-key-driver-reinstall",
     "copilot-key-not-working-laptop",
-    "copilot-key-opens-wrong-app",
-    "copilot-windows-key-c-shortcut-broken"
+    "copilot-key-opens-wrong-app"
   ],
   "restyle-image-cocreator-not-working": [
     "click-to-do-image-actions-missing",
@@ -28023,13 +28509,19 @@
     "samsung-galaxy-book5-pro-npu-issues",
     "qualcomm-hexagon-npu-driver-windows",
     "reinstall-npu-driver-clean-install",
-    "hp-omnibook-ultra-npu-driver-issues"
+    "snapdragon-x2-npu-driver-problems"
   ],
   "samsung-galaxy-book5-pro-npu-issues": [
     "samsung-galaxy-book4-edge-issues",
     "samsung-galaxy-book5-npu-driver",
     "hp-omnibook-ultra-npu-driver-issues",
     "snapdragon-x-elite-npu-driver-issues"
+  ],
+  "save-live-captions-transcript": [
+    "live-captions-auto-start-boot",
+    "live-captions-caption-box-disappears",
+    "live-captions-delay-fix",
+    "live-captions-draining-battery"
   ],
   "scanner-not-working-snapdragon-laptop": [
     "app-not-working-snapdragon-x-laptop",
@@ -28050,10 +28542,10 @@
     "how-to-fix-laptop-camera-not-detected-youtube"
   ],
   "sd-card-reader-not-working-ai-laptop": [
+    "click-to-do-edge-pdf-reader",
     "copilot-plus-pc-fingerprint-not-working",
     "120hz-refresh-rate-missing-arm-laptop",
-    "45-tops-vs-40-tops-npu-difference",
-    "acer-swift-14-ai-copilot-problems"
+    "45-tops-vs-40-tops-npu-difference"
   ],
   "search-indexing-high-cpu-windows-11-troubleshooting": [
     "troubleshoot-search-indexing-high-cpu-windows-11",
@@ -28093,15 +28585,21 @@
   ],
   "semantic-search-not-finding-files": [
     "recall-search-not-finding-anything",
+    "copilot-app-missing-start-menu-search",
     "copilot-plus-pc-data-migration-guide",
-    "lenovo-yoga-slim-7x-recall-issues",
-    "recall-timeline-search-slow"
+    "lenovo-yoga-slim-7x-recall-issues"
   ],
   "shutdown-takes-long-windows-11-troubleshooting": [
     "edge-high-cpu-usage-windows-11-troubleshooting",
     "memory-leak-windows-11-troubleshooting",
     "ntoskrnl-exe-high-cpu-usage-troubleshooting",
     "onedrive-sync-high-cpu-troubleshooting"
+  ],
+  "slack-arm-windows-slow": [
+    "how-to-check-if-app-is-arm-native",
+    "prism-emulator-settings-windows-11",
+    "120hz-refresh-rate-missing-arm-laptop",
+    "adobe-photoshop-arm-laptop-issues"
   ],
   "smart-charging-not-working-surface-troubleshooting": [
     "best-way-to-fix-smart-charging-not-working-surface",
@@ -28113,13 +28611,19 @@
     "hp-omnibook-ultra-npu-driver-issues",
     "lenovo-thinkpad-t14s-snapdragon-issues",
     "samsung-galaxy-book5-pro-npu-issues",
-    "acer-swift-16-ai-npu-problems"
+    "snapdragon-x2-npu-driver-problems"
   ],
   "snapdragon-x-plus-vs-x-elite": [
     "can-you-install-x86-windows-on-snapdragon-laptop",
     "snapdragon-x-elite-npu-driver-issues",
     "45-tops-vs-40-tops-npu-difference",
     "app-not-working-snapdragon-x-laptop"
+  ],
+  "snapdragon-x2-npu-driver-problems": [
+    "qualcomm-hexagon-npu-driver-windows",
+    "reinstall-npu-driver-clean-install",
+    "samsung-galaxy-book5-npu-driver",
+    "snapdragon-x-elite-npu-driver-issues"
   ],
   "soldered-ram-upgrade-ai-laptop": [
     "copilot-plus-pc-ram-upgrade-possible",
@@ -28211,31 +28715,73 @@
     "how-to-fix-stop-code-memory-management",
     "how-to-fix-stop-code-memory-management-in-windows-11-24h2"
   ],
-  "studio-effects-broken-after-windows-update": [
-    "recall-not-working-after-update",
-    "studio-effects-driver-update-required",
-    "ai-pc-slow-after-windows-update",
+  "studio-effects-auto-framing-zoom": [
+    "automatic-framing-not-working-windows-11",
+    "studio-effects-zoom-meeting-issues",
+    "background-blur-not-working-studio-effects",
+    "eye-contact-effect-not-working"
+  ],
+  "studio-effects-battery-impact-reduce": [
+    "live-captions-draining-battery",
+    "npu-high-power-usage-draining-battery",
+    "ai-features-draining-laptop-battery",
     "automatic-framing-not-working-windows-11"
   ],
-  "studio-effects-camera-not-detected": [
-    "studio-effects-mic-not-detected",
-    "automatic-framing-not-working-windows-11",
+  "studio-effects-blur-strength-adjustment": [
     "background-blur-not-working-studio-effects",
+    "studio-effects-obs-virtual-camera-conflict",
+    "automatic-framing-not-working-windows-11",
     "eye-contact-effect-not-working"
+  ],
+  "studio-effects-broken-after-windows-update": [
+    "studio-effects-camera-black-driver-update",
+    "recall-not-working-after-update",
+    "studio-effects-driver-update-required",
+    "ai-pc-slow-after-windows-update"
+  ],
+  "studio-effects-camera-black-driver-update": [
+    "studio-effects-broken-after-windows-update",
+    "studio-effects-driver-update-required",
+    "ai-pc-slow-after-windows-update",
+    "how-to-reinstall-studio-effects-driver"
+  ],
+  "studio-effects-camera-not-detected": [
+    "studio-effects-camera-black-driver-update",
+    "studio-effects-mic-not-detected",
+    "studio-effects-obs-virtual-camera-conflict",
+    "automatic-framing-not-working-windows-11"
   ],
   "studio-effects-creative-filters-missing": [
+    "studio-effects-per-app-toggle-missing",
     "studio-effects-settings-missing-quick-settings",
     "automatic-framing-not-working-windows-11",
+    "background-blur-not-working-studio-effects"
+  ],
+  "studio-effects-discord-calls": [
+    "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
-    "eye-contact-effect-not-working"
+    "eye-contact-effect-not-working",
+    "how-to-reinstall-studio-effects-driver"
   ],
   "studio-effects-driver-update-required": [
+    "studio-effects-camera-black-driver-update",
     "how-to-reinstall-studio-effects-driver",
     "studio-effects-broken-after-windows-update",
-    "studio-effects-npu-required-error",
-    "amd-npu-driver-update-failed"
+    "studio-effects-npu-required-error"
+  ],
+  "studio-effects-external-webcam-issues": [
+    "automatic-framing-not-working-windows-11",
+    "background-blur-not-working-studio-effects",
+    "eye-contact-effect-not-working",
+    "how-to-reinstall-studio-effects-driver"
   ],
   "studio-effects-flickering-video-fix": [
+    "automatic-framing-not-working-windows-11",
+    "background-blur-not-working-studio-effects",
+    "eye-contact-effect-not-working",
+    "how-to-reinstall-studio-effects-driver"
+  ],
+  "studio-effects-google-meet-not-working": [
     "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
     "eye-contact-effect-not-working",
@@ -28248,10 +28794,10 @@
     "background-blur-not-working-studio-effects"
   ],
   "studio-effects-high-cpu-usage": [
+    "studio-effects-per-app-toggle-missing",
     "copilot-high-cpu-usage",
-    "automatic-framing-not-working-windows-11",
-    "background-blur-not-working-studio-effects",
-    "copilot-suggested-prompts-missing"
+    "live-captions-high-cpu-usage-fix",
+    "automatic-framing-not-working-windows-11"
   ],
   "studio-effects-mic-not-detected": [
     "studio-effects-camera-not-detected",
@@ -28268,32 +28814,62 @@
   "studio-effects-not-working-teams": [
     "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
-    "eye-contact-effect-not-working",
-    "how-to-reinstall-studio-effects-driver"
+    "click-to-do-teams-chat",
+    "eye-contact-effect-not-working"
   ],
   "studio-effects-npu-required-error": [
     "studio-effects-driver-update-required",
+    "studio-effects-npu-unavailable-error",
+    "automatic-framing-not-working-windows-11",
+    "background-blur-not-working-studio-effects"
+  ],
+  "studio-effects-npu-unavailable-error": [
+    "studio-effects-npu-required-error",
     "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
     "eye-contact-effect-not-working"
   ],
+  "studio-effects-obs-virtual-camera-conflict": [
+    "studio-effects-blur-strength-adjustment",
+    "studio-effects-camera-black-driver-update",
+    "studio-effects-camera-not-detected",
+    "automatic-framing-not-working-windows-11"
+  ],
+  "studio-effects-per-app-toggle-missing": [
+    "studio-effects-high-cpu-usage",
+    "copilot-suggested-prompts-missing",
+    "studio-effects-creative-filters-missing",
+    "studio-effects-settings-missing-quick-settings"
+  ],
   "studio-effects-portrait-light-not-working": [
+    "studio-effects-portrait-relight-intensity",
     "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
-    "eye-contact-effect-not-working",
-    "how-to-reinstall-studio-effects-driver"
+    "eye-contact-effect-not-working"
+  ],
+  "studio-effects-portrait-relight-intensity": [
+    "studio-effects-portrait-light-not-working",
+    "automatic-framing-not-working-windows-11",
+    "background-blur-not-working-studio-effects",
+    "eye-contact-effect-not-working"
   ],
   "studio-effects-settings-missing-quick-settings": [
     "studio-effects-creative-filters-missing",
+    "studio-effects-per-app-toggle-missing",
+    "automatic-framing-not-working-windows-11",
+    "background-blur-not-working-studio-effects"
+  ],
+  "studio-effects-teleprompter-eye-contact": [
+    "eye-contact-effect-not-working",
     "automatic-framing-not-working-windows-11",
     "background-blur-not-working-studio-effects",
-    "click-to-do-right-click-menu-missing"
+    "how-to-reinstall-studio-effects-driver"
   ],
   "studio-effects-zoom-meeting-issues": [
+    "studio-effects-auto-framing-zoom",
     "studio-effects-greyed-out",
     "automatic-framing-not-working-windows-11",
-    "background-blur-not-working-studio-effects",
-    "dell-xps-14-snapdragon-npu-issues"
+    "background-blur-not-working-studio-effects"
   ],
   "super-resolution-photos-not-working": [
     "auto-super-resolution-games-not-working",
@@ -28311,7 +28887,7 @@
     "surface-pro-11-pen-not-working",
     "adobe-photoshop-arm-laptop-issues",
     "ai-pc-slow-after-windows-update",
-    "asus-vivobook-s-15-copilot-issues"
+    "amd-ryzen-ai-max-npu-issues"
   ],
   "surface-laptop-ai-features-not-working": [
     "acer-swift-14-ai-copilot-problems",
@@ -28419,7 +28995,7 @@
     "copilot-suggested-prompts-missing",
     "npu-disappeared-after-windows-update",
     "npu-missing-after-bios-update",
-    "120hz-refresh-rate-missing-arm-laptop"
+    "studio-effects-per-app-toggle-missing"
   ],
   "taskbar-lag-windows-11-troubleshooting": [
     "how-to-fix-taskbar-lag-windows-11-on-dell-laptop",
@@ -28440,10 +29016,10 @@
     "how-to-fix-teams-autostart-slowing-laptop"
   ],
   "teams-crashing-snapdragon-laptop": [
+    "click-to-do-teams-chat",
     "microsoft-office-slow-snapdragon-laptop",
     "spotify-app-crashing-arm-windows",
-    "studio-effects-not-working-teams",
-    "app-not-working-snapdragon-x-laptop"
+    "studio-effects-not-working-teams"
   ],
   "thinkpad-battery-not-charging-troubleshooting": [
     "how-to-fix-thinkpad-battery-not-charging-in-windows-11-24h2",
@@ -28461,7 +29037,7 @@
     "asus-vivobook-s-15-copilot-issues",
     "dell-latitude-7455-copilot-issues",
     "lenovo-thinkpad-t14s-snapdragon-issues",
-    "samsung-galaxy-book4-edge-issues"
+    "qualcomm-ai-hub-models-not-running"
   ],
   "thunderbolt-not-working-on-laptop-troubleshooting": [
     "airplane-mode-stuck-on-troubleshooting",
@@ -29844,10 +30420,10 @@
     "troubleshoot-unexpected-store-exception"
   ],
   "uninstall-copilot-windows-11": [
+    "debloat-copilot-plus-pc-safe-guide",
     "acer-swift-14-ai-copilot-problems",
     "acer-swift-go-14-ai-problems",
-    "ai-pc-new-laptop-setup-checklist",
-    "asus-vivobook-s-15-copilot-issues"
+    "ai-pc-new-laptop-setup-checklist"
   ],
   "update-and-shut-down-stuck-on-laptop-troubleshooting": [
     "best-way-to-fix-update-and-shut-down-stuck-on-laptop",
@@ -29898,10 +30474,10 @@
     "how-to-fix-usb-device-not-recognized-after-windows-11-update"
   ],
   "usb-dock-not-working-arm-laptop": [
+    "audio-interface-not-working-arm-laptop",
     "120hz-refresh-rate-missing-arm-laptop",
     "adobe-photoshop-arm-laptop-issues",
-    "android-emulator-not-working-arm-laptop",
-    "anti-cheat-unsupported-arm-laptop"
+    "android-emulator-not-working-arm-laptop"
   ],
   "usb-headset-not-working-troubleshooting": [
     "how-to-fix-usb-headset-not-working-on-windows-10",
@@ -29931,13 +30507,25 @@
     "copilot-edge-sidebar-not-working",
     "copilot-vision-not-working-windows",
     "copilot-voice-mode-not-working",
-    "fast-startup-issues-arm-laptop"
+    "copilot-voice-wake-word-not-working"
   ],
   "vpn-not-working-windows-on-arm": [
     "120hz-refresh-rate-missing-arm-laptop",
     "adobe-photoshop-arm-laptop-issues",
     "android-emulator-not-working-arm-laptop",
     "anti-cheat-unsupported-arm-laptop"
+  ],
+  "vscode-arm-native-vs-x64": [
+    "python-arm-windows-install-issues",
+    "adobe-photoshop-arm-laptop-issues",
+    "audio-interface-not-working-arm-laptop",
+    "davinci-resolve-arm-windows-laptop"
+  ],
+  "wacom-tablet-driver-arm-windows": [
+    "adobe-photoshop-arm-laptop-issues",
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-xdna2-npu-driver-issues",
+    "audio-interface-not-working-arm-laptop"
   ],
   "waves-maxxaudio-not-working-troubleshooting": [
     "best-way-to-fix-waves-maxxaudio-not-working",
@@ -31352,14 +31940,14 @@
   "which-npu-is-best-2026": [
     "intel-lunar-lake-vs-amd-strix-point",
     "amd-npu-driver-update-failed",
-    "amd-ryzen-ai-npu-not-showing-up",
-    "amd-xdna-npu-driver-not-installing"
+    "amd-ryzen-ai-max-npu-issues",
+    "amd-ryzen-ai-npu-not-showing-up"
   ],
   "whisper-ai-npu-transcription-error": [
+    "npu-shared-memory-allocation-fix",
     "45-tops-vs-40-tops-npu-difference",
     "acer-swift-16-ai-npu-problems",
-    "ai-laptop-warranty-npu-repair",
-    "amd-npu-driver-update-failed"
+    "ai-laptop-warranty-npu-repair"
   ],
   "widgets-board-high-cpu-windows-11-troubleshooting": [
     "troubleshoot-widgets-board-high-cpu-windows-11",
@@ -31613,6 +32201,12 @@
     "how-to-fix-windows-insider-build-stuck-downloading",
     "how-to-fix-windows-insider-build-stuck-downloading-after-windows-11-update"
   ],
+  "windows-ml-model-fails-npu": [
+    "ai-laptop-warranty-npu-repair",
+    "snapdragon-x2-npu-driver-problems",
+    "acer-swift-16-ai-npu-problems",
+    "check-npu-firmware-version-windows"
+  ],
   "windows-modules-installer-high-cpu-troubleshooting": [
     "how-do-i-fix-windows-modules-installer-high-cpu",
     "how-to-fix-tiworker-high-cpu-step-by-step",
@@ -31626,16 +32220,16 @@
     "how-to-fix-windows-modules-installer-worker-high-disk-usage"
   ],
   "windows-recall-not-working": [
+    "recall-broken-after-25h2-update",
     "acer-swift-14-ai-copilot-problems",
-    "copilot-plus-pc-overheating",
-    "delete-recall-snapshots",
-    "dell-xps-14-snapdragon-npu-issues"
+    "check-npu-firmware-version-windows",
+    "copilot-plus-pc-overheating"
   ],
   "windows-recall-privacy-settings-fix": [
     "recall-snapshot-frequency-settings",
     "how-to-export-recall-snapshots",
     "acer-swift-16-ai-npu-problems",
-    "fast-startup-issues-arm-laptop"
+    "click-to-do-privacy-settings-fix"
   ],
   "windows-recall-system-requirements": [
     "copilot-plus-pc-requirements",
@@ -31646,8 +32240,8 @@
   "windows-search-ai-indexing-slow": [
     "recall-timeline-search-slow",
     "ai-pc-slow-after-windows-update",
-    "copilot-app-slow-loading-fix",
-    "copilot-plus-pc-slow-boot-fix"
+    "copilot-app-missing-start-menu-search",
+    "copilot-app-slow-loading-fix"
   ],
   "windows-search-indexer-high-cpu-troubleshooting": [
     "antimalware-service-executable-high-cpu-fix-troubleshooting",
@@ -31757,11 +32351,17 @@
     "android-emulator-not-working-arm-laptop",
     "anti-cheat-unsupported-arm-laptop"
   ],
+  "x64-emulation-cache-clear-arm": [
+    "x64-emulation-not-working-windows-11-arm",
+    "copilot-app-cache-clear-fix",
+    "vscode-arm-native-vs-x64",
+    "120hz-refresh-rate-missing-arm-laptop"
+  ],
   "x64-emulation-not-working-windows-11-arm": [
+    "x64-emulation-cache-clear-arm",
+    "vscode-arm-native-vs-x64",
     "120hz-refresh-rate-missing-arm-laptop",
-    "adobe-photoshop-arm-laptop-issues",
-    "android-emulator-not-working-arm-laptop",
-    "anti-cheat-unsupported-arm-laptop"
+    "adobe-photoshop-arm-laptop-issues"
   ],
   "x86-app-slow-on-snapdragon": [
     "microsoft-office-slow-snapdragon-laptop",
